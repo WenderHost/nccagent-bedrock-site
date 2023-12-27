@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://wenmarkdigitial.com">
-    <img src="https://wenmarkdigital.com/wp-content/uploads/2021/02/wenmark-logo_1500x430.png" alt="" width="320">
+  <a href="https://nccagent.com" style="background-color: #002D72; padding: 1em; border-radius: 10px;">
+    <img src="https://nccagent.com/wp-content/uploads/ncc-logo-two-lines-reversed.png" alt="" width="320">
   </a>
 </p>
 
