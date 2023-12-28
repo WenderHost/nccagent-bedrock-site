@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "20c8f7190689813ae8953d9c418c1b30",
+    "content-hash": "dcb01d8f5319633fef86ce85a897c4f1",
     "packages": [
         {
             "name": "composer/installers",
@@ -1163,6 +1163,47 @@
             "time": "2023-11-12T22:43:29+00:00"
         },
         {
+            "name": "wenderhost/nccagent-extras",
+            "version": "4.3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WenderHost/nccagent-extras.git",
+                "reference": "f2c24086ea6a0e4dfc28542a0c85510eee820259"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/f2c24086ea6a0e4dfc28542a0c85510eee820259",
+                "reference": "f2c24086ea6a0e4dfc28542a0c85510eee820259",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "zordius/lightncandy": "^1.2"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Wender",
+                    "email": "michael@michaelwender.com",
+                    "homepage": "https://mwender.com"
+                }
+            ],
+            "description": "A WordPress Plugin for the NCC website.",
+            "homepage": "https://github.com/WenderHost/nccagent-extras",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/WenderHost/nccagent-extras/tree/4.3.0.1",
+                "issues": "https://github.com/WenderHost/nccagent-extras/issues"
+            },
+            "time": "2023-12-28T14:40:57+00:00"
+        },
+        {
             "name": "wenmark/ele-custom-skin-pro",
             "version": "3.2.4",
             "dist": {
@@ -1420,6 +1461,42 @@
             "homepage": "https://wordpress.org/plugins/login-or-logout-menu-item/"
         },
         {
+            "name": "wpackagist-plugin/members",
+            "version": "3.2.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/members/",
+                "reference": "tags/3.2.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/members.3.2.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/members/"
+        },
+        {
+            "name": "wpackagist-plugin/peters-login-redirect",
+            "version": "3.0.8.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/peters-login-redirect/",
+                "reference": "tags/3.0.8.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/peters-login-redirect.3.0.8.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/peters-login-redirect/"
+        },
+        {
             "name": "wpackagist-plugin/spinupwp",
             "version": "1.5.1",
             "source": {
@@ -1487,6 +1564,62 @@
                 "wpackagist-plugin/advanced-custom-fields": "self.version"
             },
             "type": "wordpress-plugin"
+        },
+        {
+            "name": "zordius/lightncandy",
+            "version": "v1.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zordius/lightncandy.git",
+                "reference": "b451f73e8b5c73e62e365997ba3c993a0376b72a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zordius/lightncandy/zipball/b451f73e8b5c73e62e365997ba3c993a0376b72a",
+                "reference": "b451f73e8b5c73e62e365997ba3c993a0376b72a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LightnCandy\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Zordius Chen",
+                    "email": "zordius@gmail.com"
+                }
+            ],
+            "description": "An extremely fast PHP implementation of handlebars ( http://handlebarsjs.com/ ) and mustache ( http://mustache.github.io/ ).",
+            "homepage": "https://github.com/zordius/lightncandy",
+            "keywords": [
+                "handlebars",
+                "logicless",
+                "mustache",
+                "php",
+                "template"
+            ],
+            "support": {
+                "issues": "https://github.com/zordius/lightncandy/issues",
+                "source": "https://github.com/zordius/lightncandy/tree/v1.2.6"
+            },
+            "time": "2021-07-11T04:52:41+00:00"
         }
     ],
     "packages-dev": [
