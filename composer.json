@@ -67,7 +67,16 @@
     "wpackagist-plugin/login-or-logout-menu-item": "^1.2",
     "wpackagist-plugin/peters-login-redirect": "3.0.8.5",
     "wpackagist-plugin/members": "^3.2",
-    "wenderhost/nccagent-extras": "4.3.0.1"
+    "wenderhost/nccagent-extras": "4.3.0.1",
+    "wpackagist-plugin/optinmonster": "^2.15",
+    "wpackagist-plugin/popup-trigger-url-for-elementor-pro": "^1.0",
+    "wpackagist-plugin/post-smtp": "^2.8",
+    "wpackagist-plugin/redirection": "^5.3",
+    "wpackagist-plugin/search-exclude": "^2.0",
+    "wpackagist-plugin/shortcoder": "^6.3",
+    "wpackagist-plugin/shortcodes-ultimate": "^7.0",
+    "wpackagist-plugin/shortpixel-image-optimiser": "^5.5",
+    "wpackagist-plugin/simple-page-ordering": "^2.6"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
