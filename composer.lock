@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5764cf01e511cd3192337d5b312aa246",
+    "content-hash": "137f164861113c40f02d6b3f390ba19b",
     "packages": [
         {
             "name": "composer/installers",
@@ -1242,6 +1242,24 @@
             "homepage": "https://go.elementor.com/wp-dash-wp-plugins-author-uri/"
         },
         {
+            "name": "wenmark/events-calendar-pro",
+            "version": "6.2.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/events-calendar-pro/6.2.4",
+                "shasum": "928f8d3db0125dea5bb20876d217737bf33a9d96"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "The Events Calendar",
+                "homepage": "https://evnt.is/20"
+            },
+            "description": "The Events Calendar Pro, a premium add-on to the open source The Events Calendar plugin (required), enables recurring events, custom attributes, venue pages, new widgets and a host of other premium features."
+        },
+        {
             "name": "wenmark/gravityforms",
             "version": "2.7.17.1",
             "dist": {
@@ -1297,6 +1315,25 @@
             },
             "description": "A top-notch mega menu addon for Elementor. Use it to create a fully responsive mega menu with drop-down items, rich in content modules, and change your menu style according to your vision without any coding knowledge!",
             "homepage": "https://crocoblock.com/plugins/jetmenu/"
+        },
+        {
+            "name": "wenmark/wordpress-seo-premium",
+            "version": "21.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/wordpress-seo-premium/21.7",
+                "shasum": "25ae66fa912db1e69f66990ae77bf5562b247136"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Team Yoast",
+                "homepage": "https://yoa.st/team-yoast-premium"
+            },
+            "description": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.",
+            "homepage": "https://yoa.st/2jc"
         },
         {
             "name": "wpackagist-plugin/countdown-builder",
@@ -1675,6 +1712,96 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/spinupwp/"
+        },
+        {
+            "name": "wpackagist-plugin/the-events-calendar",
+            "version": "6.2.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
+                "reference": "tags/6.2.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.2.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/the-events-calendar/"
+        },
+        {
+            "name": "wpackagist-plugin/updraftplus",
+            "version": "1.23.16",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/updraftplus/",
+                "reference": "tags/1.23.16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.23.16.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/updraftplus/"
+        },
+        {
+            "name": "wpackagist-plugin/visibility-logic-elementor",
+            "version": "2.3.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/visibility-logic-elementor/",
+                "reference": "tags/2.3.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/visibility-logic-elementor.2.3.5.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/visibility-logic-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "21.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/21.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.21.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-approve-user",
+            "version": "10",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-approve-user/",
+                "reference": "tags/10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-approve-user.10.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-approve-user/"
         },
         {
             "name": "wpackagist-theme/hello-elementor",

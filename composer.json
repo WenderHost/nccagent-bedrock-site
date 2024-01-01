@@ -76,7 +76,14 @@
     "wpackagist-plugin/shortcoder": "^6.3",
     "wpackagist-plugin/shortcodes-ultimate": "^7.0",
     "wpackagist-plugin/shortpixel-image-optimiser": "^5.5",
-    "wpackagist-plugin/simple-page-ordering": "^2.6"
+    "wpackagist-plugin/simple-page-ordering": "^2.6",
+    "wpackagist-plugin/the-events-calendar": "^6.2",
+    "wpackagist-plugin/updraftplus": "^1.23",
+    "wpackagist-plugin/visibility-logic-elementor": "2.3.5.1",
+    "wpackagist-plugin/wp-approve-user": "^10.0",
+    "wpackagist-plugin/wordpress-seo": "^21.7",
+    "wenmark/wordpress-seo-premium": "^21.7",
+    "wenmark/events-calendar-pro": "^6.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
