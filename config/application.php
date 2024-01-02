@@ -64,6 +64,20 @@ Config::define('WP_HOME', env('WP_HOME'));
 Config::define('WP_SITEURL', env('WP_SITEURL'));
 
 /**
+ * NCC Agent Custom Settings
+ */
+Config::define('ACTIVECAMPAIGN_API_KEY', env('ACTIVECAMPAIGN_API_KEY'));
+Config::define('HS_PORTAL_ID', env('HS_PORTAL_ID'));
+Config::define('GF_ONLINE_CONTRACTING_FORM_ID', env('GF_ONLINE_CONTRACTING_FORM_ID'));
+Config::define('GF_CARRIER_CHECKLIST_FIELD_ID', env('GF_CARRIER_CHECKLIST_FIELD_ID'));
+Config::define('HS_AGENT_REGISTRATION_FORM_ID', env('HS_AGENT_REGISTRATION_FORM_ID'));
+
+/**
+ * iThemes/SolidWP Security Settings
+ */
+Config::define('ITSEC_ENCRYPTION_KEY', env('ITSEC_ENCRYPTION_KEY'));
+
+/**
  * Custom Content Directory
  */
 Config::define('CONTENT_DIR', '/app');
