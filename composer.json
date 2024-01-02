@@ -53,7 +53,7 @@
     "wenmark/elementor-pro": "^3.18",
     "wpackagist-plugin/elementor": "^3.18",
     "wpackagist-theme/hello-elementor": "^3",
-    "wenmark/gravityforms": "2.7.17.1",
+    "wenmark/gravityforms": "^2",
     "wpengine/advanced-custom-fields-pro": "^6.2",
     "wenmark/ithemes-security-pro": "^8.2",
     "wpackagist-plugin/countdown-builder": "^2.7",
@@ -80,7 +80,7 @@
     "wpackagist-plugin/the-events-calendar": "^6.2",
     "wpackagist-plugin/updraftplus": "^1.23",
     "wpackagist-plugin/visibility-logic-elementor": "2.3.5.1",
-    "wpackagist-plugin/wp-approve-user": "^10.0",
+    "wpackagist-plugin/wp-approve-user": "^10",
     "wpackagist-plugin/wordpress-seo": "^21.7",
     "wenmark/wordpress-seo-premium": "^21.7",
     "wenmark/events-calendar-pro": "^6.2"
