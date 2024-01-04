@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6df544c9352b648e9ea9f6ad67bcb9dc",
+    "content-hash": "7be724c9760cf80172ee1805298d8b06",
     "packages": [
         {
             "name": "composer/installers",
@@ -1164,16 +1164,16 @@
         },
         {
             "name": "wenderhost/nccagent-extras",
-            "version": "4.3.0.1",
+            "version": "dev-feature-product-finder-removal",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WenderHost/nccagent-extras.git",
-                "reference": "f2c24086ea6a0e4dfc28542a0c85510eee820259"
+                "reference": "61d06064b694d2e4f98227791576081d8b1d0e27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/f2c24086ea6a0e4dfc28542a0c85510eee820259",
-                "reference": "f2c24086ea6a0e4dfc28542a0c85510eee820259",
+                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/61d06064b694d2e4f98227791576081d8b1d0e27",
+                "reference": "61d06064b694d2e4f98227791576081d8b1d0e27",
                 "shasum": ""
             },
             "require": {
@@ -1198,10 +1198,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/WenderHost/nccagent-extras/tree/4.3.0.1",
+                "source": "https://github.com/WenderHost/nccagent-extras/tree/feature-product-finder-removal",
                 "issues": "https://github.com/WenderHost/nccagent-extras/issues"
             },
-            "time": "2023-12-28T14:40:57+00:00"
+            "time": "2024-01-04T16:30:29+00:00"
         },
         {
             "name": "wenmark/ele-custom-skin-pro",
@@ -1463,15 +1463,15 @@
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",
-            "version": "2.25.28",
+            "version": "2.25.29",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
-                "reference": "tags/2.25.28"
+                "reference": "tags/2.25.29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.25.28.zip"
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.25.29.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1517,15 +1517,15 @@
         },
         {
             "name": "wpackagist-plugin/optinmonster",
-            "version": "2.15.1",
+            "version": "2.15.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/optinmonster/",
-                "reference": "tags/2.15.1"
+                "reference": "tags/2.15.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/optinmonster.2.15.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/optinmonster.2.15.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1661,15 +1661,15 @@
         },
         {
             "name": "wpackagist-plugin/shortpixel-image-optimiser",
-            "version": "5.5.2",
+            "version": "5.5.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/shortpixel-image-optimiser/",
-                "reference": "tags/5.5.2"
+                "reference": "tags/5.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/shortpixel-image-optimiser.5.5.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/shortpixel-image-optimiser.5.5.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1918,12 +1918,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "cbce83127406d8e91ec92b053a44cf917800646b"
+                "reference": "1aa0cfd57670c4c1ecc7901284d7c12ae94e029d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/cbce83127406d8e91ec92b053a44cf917800646b",
-                "reference": "cbce83127406d8e91ec92b053a44cf917800646b",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/1aa0cfd57670c4c1ecc7901284d7c12ae94e029d",
+                "reference": "1aa0cfd57670c4c1ecc7901284d7c12ae94e029d",
                 "shasum": ""
             },
             "conflict": {
@@ -2013,8 +2013,9 @@
                 "contao/core-bundle": "<4.9.42|>=4.10,<4.13.28|>=5,<5.1.10",
                 "contao/listing-bundle": ">=4,<4.4.8",
                 "contao/managed-edition": "<=1.5",
+                "corveda/phpsandbox": "<1.3.5",
                 "cosenary/instagram": "<=2.3",
-                "craftcms/cms": "<=4.4.14",
+                "craftcms/cms": "<=4.5.10",
                 "croogo/croogo": "<4",
                 "cuyz/valinor": "<0.12",
                 "czproject/git-php": "<4.0.3",
@@ -2115,7 +2116,7 @@
                 "getkirby/kirby": "<=2.5.12",
                 "getkirby/panel": "<2.5.14",
                 "getkirby/starterkit": "<=3.7.0.2",
-                "gilacms/gila": "<=1.11.4",
+                "gilacms/gila": "<=1.15.4",
                 "gleez/cms": "<=1.2|==2",
                 "globalpayments/php-sdk": "<2",
                 "gogentooss/samlbase": "<1.2.7",
@@ -2322,6 +2323,7 @@
                 "pimcore/perspective-editor": "<1.5.1",
                 "pimcore/pimcore": "<11.1.1",
                 "pixelfed/pixelfed": "<=0.11.4",
+                "plotly/plotly.js": "<2.25.2",
                 "pocketmine/bedrock-protocol": "<8.0.2",
                 "pocketmine/pocketmine-mp": "<=4.23|>=5,<5.3.1",
                 "pocketmine/raklib": ">=0.14,<0.14.6|>=0.15,<0.15.1",
@@ -2331,7 +2333,7 @@
                 "prestashop/blockwishlist": ">=2,<2.1.1",
                 "prestashop/contactform": ">=1.0.1,<4.3",
                 "prestashop/gamification": "<2.3.2",
-                "prestashop/prestashop": "<8.1.2",
+                "prestashop/prestashop": "<8.1.3",
                 "prestashop/productcomments": "<5.0.2",
                 "prestashop/ps_emailsubscription": "<2.6.1",
                 "prestashop/ps_facetedsearch": "<3.4.1",
@@ -2632,7 +2634,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-29T19:04:11+00:00"
+            "time": "2024-01-03T22:04:06+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -2718,6 +2720,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "wenderhost/nccagent-extras": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
@@ -2726,5 +2729,5 @@
         "php": ">=8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
