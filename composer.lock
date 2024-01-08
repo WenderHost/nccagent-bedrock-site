@@ -1168,12 +1168,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/WenderHost/nccagent-extras.git",
-                "reference": "fdb5fbfd3665f29c39339a9c3e39a5d50b23d67d"
+                "reference": "73bc11b5a0da1117a01b5e2402675470d57f1ca7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/fdb5fbfd3665f29c39339a9c3e39a5d50b23d67d",
-                "reference": "fdb5fbfd3665f29c39339a9c3e39a5d50b23d67d",
+                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/73bc11b5a0da1117a01b5e2402675470d57f1ca7",
+                "reference": "73bc11b5a0da1117a01b5e2402675470d57f1ca7",
                 "shasum": ""
             },
             "require": {
@@ -1201,7 +1201,7 @@
                 "source": "https://github.com/WenderHost/nccagent-extras/tree/feature-product-finder-removal",
                 "issues": "https://github.com/WenderHost/nccagent-extras/issues"
             },
-            "time": "2024-01-04T21:27:05+00:00"
+            "time": "2024-01-08T15:41:20+00:00"
         },
         {
             "name": "wenmark/ele-custom-skin-pro",
