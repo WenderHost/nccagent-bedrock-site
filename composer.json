@@ -83,7 +83,8 @@
     "wpackagist-plugin/wp-approve-user": "^11",
     "wpackagist-plugin/wordpress-seo": "^21.7",
     "wenmark/wordpress-seo-premium": "^21.7",
-    "wenmark/events-calendar-pro": "^6.2"
+    "wenmark/events-calendar-pro": "^6.2",
+    "wpackagist-plugin/catch-ids": "^2.7"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",

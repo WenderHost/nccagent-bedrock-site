@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d99095ff9501efdf2d18e121ebefeb1",
+    "content-hash": "233d03b2b42a11dd43741201cfb7890b",
     "packages": [
         {
             "name": "composer/installers",
@@ -1168,12 +1168,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/WenderHost/nccagent-extras.git",
-                "reference": "3076bc0253f51bdb1f16e710dff709a465c3815c"
+                "reference": "9f59b8579149bd0224934bb4afac7970dff3ddc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/3076bc0253f51bdb1f16e710dff709a465c3815c",
-                "reference": "3076bc0253f51bdb1f16e710dff709a465c3815c",
+                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/9f59b8579149bd0224934bb4afac7970dff3ddc5",
+                "reference": "9f59b8579149bd0224934bb4afac7970dff3ddc5",
                 "shasum": ""
             },
             "require": {
@@ -1201,7 +1201,7 @@
                 "source": "https://github.com/WenderHost/nccagent-extras/tree/feature-product-finder-removal",
                 "issues": "https://github.com/WenderHost/nccagent-extras/issues"
             },
-            "time": "2024-01-08T16:29:16+00:00"
+            "time": "2024-01-10T21:00:13+00:00"
         },
         {
             "name": "wenmark/ele-custom-skin-pro",
@@ -1334,6 +1334,24 @@
             },
             "description": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.",
             "homepage": "https://yoa.st/2jc"
+        },
+        {
+            "name": "wpackagist-plugin/catch-ids",
+            "version": "2.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/catch-ids/",
+                "reference": "tags/2.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/catch-ids.2.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/catch-ids/"
         },
         {
             "name": "wpackagist-plugin/countdown-builder",
