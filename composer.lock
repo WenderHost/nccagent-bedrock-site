@@ -1168,12 +1168,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/WenderHost/nccagent-extras.git",
-                "reference": "9f59b8579149bd0224934bb4afac7970dff3ddc5"
+                "reference": "d8f7a5af632d6d77f401b0cefb9adfaa3c1c84f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/9f59b8579149bd0224934bb4afac7970dff3ddc5",
-                "reference": "9f59b8579149bd0224934bb4afac7970dff3ddc5",
+                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/d8f7a5af632d6d77f401b0cefb9adfaa3c1c84f0",
+                "reference": "d8f7a5af632d6d77f401b0cefb9adfaa3c1c84f0",
                 "shasum": ""
             },
             "require": {
@@ -1201,7 +1201,7 @@
                 "source": "https://github.com/WenderHost/nccagent-extras/tree/feature-product-finder-removal",
                 "issues": "https://github.com/WenderHost/nccagent-extras/issues"
             },
-            "time": "2024-01-10T21:00:13+00:00"
+            "time": "2024-01-10T21:20:39+00:00"
         },
         {
             "name": "wenmark/ele-custom-skin-pro",
@@ -1936,12 +1936,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "02dfd4d343b67ea455fc1e22324dbdaa872f547a"
+                "reference": "0f9eac2e897cb5608759edab0161a936696bfdc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/02dfd4d343b67ea455fc1e22324dbdaa872f547a",
-                "reference": "02dfd4d343b67ea455fc1e22324dbdaa872f547a",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/0f9eac2e897cb5608759edab0161a936696bfdc7",
+                "reference": "0f9eac2e897cb5608759edab0161a936696bfdc7",
                 "shasum": ""
             },
             "conflict": {
@@ -2227,7 +2227,7 @@
                 "lms/routes": "<2.1.1",
                 "localizationteam/l10nmgr": "<7.4|>=8,<8.7|>=9,<9.2",
                 "luyadev/yii-helpers": "<1.2.1",
-                "magento/community-edition": "<2.4.1.0-patch1",
+                "magento/community-edition": "<2.4.2.0-patch1",
                 "magento/magento1ce": "<1.9.4.3-dev",
                 "magento/magento1ee": ">=1,<1.14.4.3-dev",
                 "magento/product-community-edition": ">=2,<2.2.10|>=2.3,<2.3.2.0-patch2",
@@ -2654,7 +2654,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-10T17:04:28+00:00"
+            "time": "2024-01-10T21:04:09+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
