@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d698916faaccbad141f2dbde6c46c947",
+    "content-hash": "4c9884ca5aedd01d72b3b4395adf7671",
     "packages": [
         {
             "name": "composer/installers",
@@ -1271,11 +1271,11 @@
         },
         {
             "name": "wenmark/ithemes-security-pro",
-            "version": "8.3.2",
+            "version": "8.4.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/ithemes-security-pro/8.3.2",
-                "shasum": "20aa2389066846dd87c3038aeba20d38ade5d424"
+                "url": "https://packages.wenmarkdigital.com/satispress/ithemes-security-pro/8.4.2",
+                "shasum": "42efa1abea1e2f2a33a56f98642c04a285d16a98"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1778,15 +1778,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "21.9.1",
+            "version": "22.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/21.9.1"
+                "reference": "tags/22.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.21.9.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.22.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
