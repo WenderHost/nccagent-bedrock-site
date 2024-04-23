@@ -72,6 +72,9 @@ Config::define('GF_ONLINE_CONTRACTING_FORM_ID', env('GF_ONLINE_CONTRACTING_FORM_
 Config::define('GF_CARRIER_CHECKLIST_FIELD_ID', env('GF_CARRIER_CHECKLIST_FIELD_ID'));
 Config::define('HS_AGENT_REGISTRATION_FORM_ID', env('HS_AGENT_REGISTRATION_FORM_ID'));
 
+Config::define('WP_MEMORY_LIMIT', env('WP_MEMORY_LIMIT'));
+Config::define('WP_MAX_MEMORY_LIMIT', env('WP_MAX_MEMORY_LIMIT'));
+
 /**
  * iThemes/SolidWP Security Settings
  */
