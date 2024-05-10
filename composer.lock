@@ -1234,11 +1234,11 @@
         },
         {
             "name": "wenmark/events-calendar-pro",
-            "version": "6.3.3",
+            "version": "6.4.0.1",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/events-calendar-pro/6.3.3",
-                "shasum": "8db20bcf67166c77fa8c6bf6d268a2411729b354"
+                "url": "https://packages.wenmarkdigital.com/satispress/events-calendar-pro/6.4.0.1",
+                "shasum": "5ddcd95d5e57ee01982b86598a901004d70f9f0a"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
