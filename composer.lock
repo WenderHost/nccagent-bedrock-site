@@ -1253,11 +1253,11 @@
         },
         {
             "name": "wenmark/gravityforms",
-            "version": "2.8.15",
+            "version": "2.8.16",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gravityforms/2.8.15",
-                "shasum": "c0aace1cbce6d8221ca8829efec0f976c728f4c9"
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityforms/2.8.16",
+                "shasum": "c75d63b8b8d83e07edc0086c365e35161223b2f1"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1272,11 +1272,11 @@
         },
         {
             "name": "wenmark/ithemes-security-pro",
-            "version": "8.4.2",
+            "version": "8.5.0",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/ithemes-security-pro/8.4.2",
-                "shasum": "42efa1abea1e2f2a33a56f98642c04a285d16a98"
+                "url": "https://packages.wenmarkdigital.com/satispress/ithemes-security-pro/8.5.0",
+                "shasum": "2b8d5c8ee40d52f720bf7784c099f86b430d9b78"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1347,7 +1347,7 @@
         },
         {
             "name": "wpackagist-plugin/countdown-builder",
-            "version": "2.8.0.2",
+            "version": "2.8.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/countdown-builder/",
@@ -1355,7 +1355,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/countdown-builder.zip?timestamp=1722685658"
+                "url": "https://downloads.wordpress.org/plugin/countdown-builder.zip?timestamp=1723760248"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1581,15 +1581,15 @@
         },
         {
             "name": "wpackagist-plugin/post-smtp",
-            "version": "2.9.7",
+            "version": "2.9.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/post-smtp/",
-                "reference": "tags/2.9.7"
+                "reference": "tags/2.9.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/post-smtp.2.9.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/post-smtp.2.9.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1689,15 +1689,15 @@
         },
         {
             "name": "wpackagist-plugin/simple-page-ordering",
-            "version": "2.7.1",
+            "version": "2.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-page-ordering/",
-                "reference": "tags/2.7.1"
+                "reference": "tags/2.7.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-page-ordering.2.7.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/simple-page-ordering.2.7.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1725,15 +1725,15 @@
         },
         {
             "name": "wpackagist-plugin/the-events-calendar",
-            "version": "6.6.1",
+            "version": "6.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
-                "reference": "tags/6.6.1"
+                "reference": "tags/6.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.6.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.6.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1928,12 +1928,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "a143e7459e3961149eb6a8eecc98dfa19799d02a"
+                "reference": "8938260885863ec2dd9f2aaf9a79ba14e58a92f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a143e7459e3961149eb6a8eecc98dfa19799d02a",
-                "reference": "a143e7459e3961149eb6a8eecc98dfa19799d02a",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/8938260885863ec2dd9f2aaf9a79ba14e58a92f6",
+                "reference": "8938260885863ec2dd9f2aaf9a79ba14e58a92f6",
                 "shasum": ""
             },
             "conflict": {
@@ -1971,7 +1971,7 @@
                 "athlon1600/php-proxy-app": "<=3",
                 "austintoddj/canvas": "<=3.4.2",
                 "auth0/wordpress": "<=4.6",
-                "automad/automad": "<=2.0.0.0-alpha5",
+                "automad/automad": "<2.0.0.0-alpha5",
                 "automattic/jetpack": "<9.8",
                 "awesome-support/awesome-support": "<=6.0.7",
                 "aws/aws-sdk-php": "<3.288.1",
@@ -2099,7 +2099,7 @@
                 "ezsystems/ezplatform-graphql": ">=1.0.0.0-RC1-dev,<1.0.13|>=2.0.0.0-beta1,<2.3.12",
                 "ezsystems/ezplatform-kernel": "<1.2.5.1-dev|>=1.3,<1.3.35",
                 "ezsystems/ezplatform-rest": ">=1.2,<=1.2.2|>=1.3,<1.3.8",
-                "ezsystems/ezplatform-richtext": ">=2.3,<2.3.7.1-dev",
+                "ezsystems/ezplatform-richtext": ">=2.3,<2.3.7.1-dev|>=3.3,<3.3.40",
                 "ezsystems/ezplatform-solr-search-engine": ">=1.7,<1.7.12|>=2,<2.0.2|>=3.3,<3.3.15",
                 "ezsystems/ezplatform-user": ">=1,<1.0.1",
                 "ezsystems/ezpublish-kernel": "<6.13.8.2-dev|>=7,<7.5.31",
@@ -2180,6 +2180,7 @@
                 "hyn/multi-tenant": ">=5.6,<5.7.2",
                 "ibexa/admin-ui": ">=4.2,<4.2.3|>=4.6.0.0-beta1,<4.6.9",
                 "ibexa/core": ">=4,<4.0.7|>=4.1,<4.1.4|>=4.2,<4.2.3|>=4.5,<4.5.6|>=4.6,<4.6.2",
+                "ibexa/fieldtype-richtext": ">=4.6,<4.6.10",
                 "ibexa/graphql": ">=2.5,<2.5.31|>=3.3,<3.3.28|>=4.2,<4.2.3",
                 "ibexa/post-install": "<=1.0.4",
                 "ibexa/solr": ">=4.5,<4.5.4",
@@ -2736,7 +2737,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-08-12T19:04:53+00:00"
+            "time": "2024-08-19T21:04:39+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
