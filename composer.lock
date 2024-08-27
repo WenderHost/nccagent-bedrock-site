@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01694605221b653a31267bc23a8cb906",
+    "content-hash": "1f2f8dd6deae05f994a46f59d7c16563",
     "packages": [
         {
             "name": "composer/installers",
@@ -1235,11 +1235,11 @@
         },
         {
             "name": "wenmark/events-calendar-pro",
-            "version": "6.5.0",
+            "version": "7.0.2.1",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/events-calendar-pro/6.5.0",
-                "shasum": "e8a4896b00aba3422277a34adab9abc49fa24eb4"
+                "url": "https://packages.wenmarkdigital.com/satispress/events-calendar-pro/7.0.2.1",
+                "shasum": "5e5916fdb4018011890a4f87f2f321cfe931b1d4"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
