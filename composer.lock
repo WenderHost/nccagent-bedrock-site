@@ -1272,11 +1272,11 @@
         },
         {
             "name": "wenmark/ithemes-security-pro",
-            "version": "8.5.0",
+            "version": "8.5.1",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/ithemes-security-pro/8.5.0",
-                "shasum": "2b8d5c8ee40d52f720bf7784c099f86b430d9b78"
+                "url": "https://packages.wenmarkdigital.com/satispress/ithemes-security-pro/8.5.1",
+                "shasum": "29f5bd0c8eba9b0156d87b2c333ea63b28a12ecb"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1545,15 +1545,15 @@
         },
         {
             "name": "wpackagist-plugin/peters-login-redirect",
-            "version": "3.0.8.5",
+            "version": "3.0.8.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/peters-login-redirect/",
-                "reference": "tags/3.0.8.5"
+                "reference": "tags/3.0.8.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/peters-login-redirect.3.0.8.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/peters-login-redirect.3.0.8.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1743,15 +1743,15 @@
         },
         {
             "name": "wpackagist-plugin/updraftplus",
-            "version": "1.24.8",
+            "version": "1.24.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/updraftplus/",
-                "reference": "tags/1.24.8"
+                "reference": "tags/1.24.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.24.8.zip"
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.24.9.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1761,15 +1761,15 @@
         },
         {
             "name": "wpackagist-plugin/visibility-logic-elementor",
-            "version": "2.3.5.1",
+            "version": "2.3.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/visibility-logic-elementor/",
-                "reference": "tags/2.3.5.1"
+                "reference": "tags/2.3.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/visibility-logic-elementor.2.3.5.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/visibility-logic-elementor.2.3.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
