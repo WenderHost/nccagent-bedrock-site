@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cbc91d0b2aeeea898149019c1117eef0",
+    "content-hash": "8aa1fa8b481d674981d2cb83ecc8e924",
     "packages": [
         {
             "name": "composer/installers",
@@ -1196,27 +1196,6 @@
             "time": "2024-02-20T22:36:52+00:00"
         },
         {
-            "name": "wenmark/ele-custom-skin-pro",
-            "version": "3.2.4",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/ele-custom-skin-pro/3.2.4",
-                "shasum": "4a7ded907947cfac20e1aba3ec2e1808c941f08f"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Dudaster.com",
-                    "homepage": "https://dudaster.com"
-                }
-            ],
-            "description": "Elementor Custom Skin Pro adds more functionality to the Ele Custom Skin: alternating templates inside a loop, dynamic anywhere, custom dynamic values and many more.",
-            "homepage": "https://dudaster.com"
-        },
-        {
             "name": "wenmark/elementor-pro",
             "version": "3.27.2",
             "dist": {
@@ -1430,24 +1409,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/disable-gutenberg/"
-        },
-        {
-            "name": "wpackagist-plugin/ele-custom-skin",
-            "version": "3.1.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/ele-custom-skin/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ele-custom-skin.zip?timestamp=1712828457"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/ele-custom-skin/"
         },
         {
             "name": "wpackagist-plugin/elementor",
