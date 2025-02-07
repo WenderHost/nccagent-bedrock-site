@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8aa1fa8b481d674981d2cb83ecc8e924",
+    "content-hash": "74816d66babe84b1ee014b4e14eb2bc8",
     "packages": [
         {
             "name": "composer/installers",
@@ -1277,27 +1277,6 @@
             ],
             "description": "Shield your site from cyberattacks and prevent security vulnerabilities. The only security plugin you need for a solid foundation.",
             "homepage": "https://solidwp.com/security"
-        },
-        {
-            "name": "wenmark/jet-menu",
-            "version": "2.4.8",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/jet-menu/2.4.8",
-                "shasum": "084ff59739706217c58babac6eef3b60c6815bf4"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Crocoblock",
-                    "homepage": "https://crocoblock.com/"
-                }
-            ],
-            "description": "A top-notch mega menu addon for Elementor. Use it to create a fully responsive mega menu with drop-down items, rich in content modules, and change your menu style according to your vision without any coding knowledge!",
-            "homepage": "https://crocoblock.com/plugins/jetmenu/"
         },
         {
             "name": "wenmark/wordpress-seo-premium",

@@ -60,7 +60,6 @@
     "wpackagist-plugin/custom-post-type-ui": "^1.15",
     "wpackagist-plugin/disable-emojis": "^1.7",
     "wpackagist-plugin/disable-gutenberg": "^3.1",
-    "wenmark/jet-menu": "^2.4",
     "wpackagist-plugin/jetpack": "^14",
     "wpackagist-plugin/login-or-logout-menu-item": "^1.2",
     "wpackagist-plugin/peters-login-redirect": "^3",
