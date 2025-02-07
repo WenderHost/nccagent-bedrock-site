@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b32b9f14b9295893c3cace62119f917c",
+    "content-hash": "cbc91d0b2aeeea898149019c1117eef0",
     "packages": [
         {
             "name": "composer/installers",
@@ -1538,24 +1538,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/members/"
-        },
-        {
-            "name": "wpackagist-plugin/optinmonster",
-            "version": "2.16.13",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/optinmonster/",
-                "reference": "tags/2.16.13"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/optinmonster.2.16.13.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/optinmonster/"
         },
         {
             "name": "wpackagist-plugin/peters-login-redirect",
