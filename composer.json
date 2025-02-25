@@ -79,7 +79,8 @@
     "wpackagist-plugin/wordpress-seo": "^22",
     "wenmark/wordpress-seo-premium": "^21",
     "wenmark/events-calendar-pro": "^7",
-    "wpackagist-plugin/catch-ids": "^2.7"
+    "wpackagist-plugin/catch-ids": "^2.7",
+    "wpackagist-plugin/enhanced-user-search": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
