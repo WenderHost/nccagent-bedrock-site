@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b18ff579da2d6f29f544635e69ee5e35",
+    "content-hash": "f438f805db003b7ec944dedfdf033bd8",
     "packages": [
         {
             "name": "composer/installers",
@@ -1640,6 +1640,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/simple-page-ordering/"
+        },
+        {
+            "name": "wpackagist-plugin/smtp2go",
+            "version": "1.11.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/smtp2go/",
+                "reference": "tags/1.11.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/smtp2go.1.11.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/smtp2go/"
         },
         {
             "name": "wpackagist-plugin/spinupwp",
