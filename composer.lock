@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f438f805db003b7ec944dedfdf033bd8",
+    "content-hash": "2be5d56133b0626aeed502c444ac3d74",
     "packages": [
         {
             "name": "composer/installers",
@@ -1156,16 +1156,16 @@
         },
         {
             "name": "wenderhost/nccagent-extras",
-            "version": "dev-feature-product-finder-removal",
+            "version": "4.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WenderHost/nccagent-extras.git",
-                "reference": "53849bce5e232a92c43c6c6c9773d903a795e0f3"
+                "reference": "5a58612dd17abdb8b4cc10ac977ad69e635579de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/53849bce5e232a92c43c6c6c9773d903a795e0f3",
-                "reference": "53849bce5e232a92c43c6c6c9773d903a795e0f3",
+                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/5a58612dd17abdb8b4cc10ac977ad69e635579de",
+                "reference": "5a58612dd17abdb8b4cc10ac977ad69e635579de",
                 "shasum": ""
             },
             "require": {
@@ -1190,10 +1190,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/WenderHost/nccagent-extras/tree/feature-product-finder-removal",
+                "source": "https://github.com/WenderHost/nccagent-extras/tree/4.4.0",
                 "issues": "https://github.com/WenderHost/nccagent-extras/issues"
             },
-            "time": "2024-02-20T22:36:52+00:00"
+            "time": "2025-03-07T22:12:00+00:00"
         },
         {
             "name": "wenmark/elementor-pro",
@@ -2842,8 +2842,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "roave/security-advisories": 20,
-        "wenderhost/nccagent-extras": 20
+        "roave/security-advisories": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

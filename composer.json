@@ -63,7 +63,7 @@
     "wpackagist-plugin/login-or-logout-menu-item": "^1.2",
     "wpackagist-plugin/peters-login-redirect": "^3",
     "wpackagist-plugin/members": "^3.2",
-    "wenderhost/nccagent-extras": "dev-feature-product-finder-removal",
+    "wenderhost/nccagent-extras": "^4",
     "wpackagist-plugin/popup-trigger-url-for-elementor-pro": "^1.0",
     "wpackagist-plugin/post-smtp": "^2.8",
     "wpackagist-plugin/redirection": "^5.3",
