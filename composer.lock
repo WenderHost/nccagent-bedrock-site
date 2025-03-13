@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2be5d56133b0626aeed502c444ac3d74",
+    "content-hash": "09024b7642ec3267a45ac0782026006e",
     "packages": [
         {
             "name": "composer/installers",
@@ -1197,11 +1197,11 @@
         },
         {
             "name": "wenmark/elementor-pro",
-            "version": "3.27.5",
+            "version": "3.27.6",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.27.5",
-                "shasum": "c1fe5a97b295289d11145037773786aa2057239a"
+                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.27.6",
+                "shasum": "140c167880ea5739cc7acf54502c5b694557bf8a"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1280,11 +1280,11 @@
         },
         {
             "name": "wenmark/wordpress-seo-premium",
-            "version": "21.9",
+            "version": "24.4",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/wordpress-seo-premium/21.9",
-                "shasum": "4c1740b57fce64d8689f6ac7b49ed86bf769f2af"
+                "url": "https://packages.wenmarkdigital.com/satispress/wordpress-seo-premium/24.4",
+                "shasum": "6fd002514684717c7d88b879f6c1e8b449935976"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1625,15 +1625,15 @@
         },
         {
             "name": "wpackagist-plugin/simple-page-ordering",
-            "version": "2.7.2",
+            "version": "2.7.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-page-ordering/",
-                "reference": "tags/2.7.2"
+                "reference": "tags/2.7.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-page-ordering.2.7.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/simple-page-ordering.2.7.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1733,15 +1733,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "22.9",
+            "version": "24.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/22.9"
+                "reference": "tags/24.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.22.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.24.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1883,12 +1883,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "4da22c240293fcf0fe72fc0b1f2f265efeb44e2e"
+                "reference": "eab95f065c8f07444ff8ea062ae32a2df83e20ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/4da22c240293fcf0fe72fc0b1f2f265efeb44e2e",
-                "reference": "4da22c240293fcf0fe72fc0b1f2f265efeb44e2e",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/eab95f065c8f07444ff8ea062ae32a2df83e20ea",
+                "reference": "eab95f065c8f07444ff8ea062ae32a2df83e20ea",
                 "shasum": ""
             },
             "conflict": {
@@ -1989,7 +1989,7 @@
                 "codiad/codiad": "<=2.8.4",
                 "components/jquery": ">=1.0.3,<3.5",
                 "composer/composer": "<1.10.27|>=2,<2.2.24|>=2.3,<2.7.7",
-                "concrete5/concrete5": "<9.3.4",
+                "concrete5/concrete5": "<9.4.0.0-RC1-dev",
                 "concrete5/core": "<8.5.8|>=9,<9.1",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
                 "contao/comments-bundle": ">=2,<4.13.40|>=5.0.0.0-RC1-dev,<5.3.4",
@@ -2111,7 +2111,7 @@
                 "friendsoftypo3/mediace": ">=7.6.2,<7.6.5",
                 "friendsoftypo3/openid": ">=4.5,<4.5.31|>=4.7,<4.7.16|>=6,<6.0.11|>=6.1,<6.1.6",
                 "froala/wysiwyg-editor": "<3.2.7|>=4.0.1,<=4.1.3",
-                "froxlor/froxlor": "<=2.2.0.0-RC3",
+                "froxlor/froxlor": "<=2.2.5",
                 "frozennode/administrator": "<=5.0.12",
                 "fuel/core": "<1.8.1",
                 "funadmin/funadmin": "<=5.0.2",
@@ -2391,7 +2391,7 @@
                 "pixelfed/pixelfed": "<0.11.11",
                 "plotly/plotly.js": "<2.25.2",
                 "pocketmine/bedrock-protocol": "<8.0.2",
-                "pocketmine/pocketmine-mp": "<5.11.2",
+                "pocketmine/pocketmine-mp": "<5.25.2",
                 "pocketmine/raklib": ">=0.14,<0.14.6|>=0.15,<0.15.1",
                 "pressbooks/pressbooks": "<5.18",
                 "prestashop/autoupgrade": ">=4,<4.10.1",
@@ -2472,8 +2472,8 @@
                 "silverstripe/userforms": "<3|>=5,<5.4.2",
                 "silverstripe/versioned-admin": ">=1,<1.11.1",
                 "simple-updates/phpwhois": "<=1",
-                "simplesamlphp/saml2": "<4.6.14|==5.0.0.0-alpha12",
-                "simplesamlphp/saml2-legacy": "<4.6.14",
+                "simplesamlphp/saml2": "<=4.6.15|>=5.0.0.0-alpha1,<=5.0.0.0-alpha19",
+                "simplesamlphp/saml2-legacy": "<=4.6.15",
                 "simplesamlphp/simplesamlphp": "<1.18.6",
                 "simplesamlphp/simplesamlphp-module-infocard": "<1.0.1",
                 "simplesamlphp/simplesamlphp-module-openid": "<1",
@@ -2752,7 +2752,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-03-06T18:06:13+00:00"
+            "time": "2025-03-11T21:04:43+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -2849,6 +2849,6 @@
     "platform": {
         "php": ">=8.0"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
