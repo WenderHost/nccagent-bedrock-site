@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59fa8c33cbb94d88a4dbe5063536f17d",
+    "content-hash": "4797e7a604a2dd6b31c08ab97ebef736",
     "packages": [
         {
             "name": "composer/installers",
@@ -1298,24 +1298,6 @@
             ],
             "description": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.",
             "homepage": "https://yoa.st/2jc"
-        },
-        {
-            "name": "wpackagist-plugin/catch-ids",
-            "version": "2.7.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/catch-ids/",
-                "reference": "tags/2.7.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/catch-ids.2.7.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/catch-ids/"
         },
         {
             "name": "wpackagist-plugin/countdown-builder",

@@ -80,7 +80,6 @@
     "wpackagist-plugin/wordpress-seo": "^24",
     "wenmark/wordpress-seo-premium": "^24",
     "wenmark/events-calendar-pro": "^7",
-    "wpackagist-plugin/catch-ids": "^2.7",
     "wpackagist-plugin/enhanced-user-search": "^1.0",
     "wpackagist-plugin/smtp2go": "^1.11"
   },
