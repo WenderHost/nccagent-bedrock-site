@@ -56,7 +56,7 @@
     "wenmark/gravityforms": "^2",
     "wpengine/advanced-custom-fields-pro": "^6.2",
     "wenmark/ithemes-security-pro": "^8",
-    "wpackagist-plugin/countdown-builder": "^2.7",
+    "wpackagist-plugin/countdown-builder": "^3.0",
     "wpackagist-plugin/disable-emojis": "^1.7",
     "wpackagist-plugin/disable-gutenberg": "^3.1",
     "wpackagist-plugin/login-or-logout-menu-item": "^1.2",
