@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ecf38d990a556c95cb707f73bc47a5dc",
+    "content-hash": "2233d79bead987228f6913afa3c43822",
     "packages": [
         {
             "name": "composer/installers",
@@ -1438,15 +1438,15 @@
         },
         {
             "name": "wpackagist-plugin/peters-login-redirect",
-            "version": "3.0.8.6",
+            "version": "3.0.8.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/peters-login-redirect/",
-                "reference": "tags/3.0.8.6"
+                "reference": "tags/3.0.8.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/peters-login-redirect.3.0.8.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/peters-login-redirect.3.0.8.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"

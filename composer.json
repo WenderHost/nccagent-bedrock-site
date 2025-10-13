@@ -77,7 +77,7 @@
     "wenmark/wordpress-seo-premium": "^24",
     "wenmark/events-calendar-pro": "^7",
     "wpackagist-plugin/enhanced-user-search": "^1.0",
-    "wpackagist-plugin/smtp2go": "^1.11"
+    "wpackagist-plugin/smtp2go": "^1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
