@@ -1229,11 +1229,11 @@
         },
         {
             "name": "wenmark/events-calendar-pro",
-            "version": "7.7.2",
+            "version": "7.7.7",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/events-calendar-pro/7.7.2",
-                "shasum": "214cf51e2f4976759bd57f614e40834122405cb5"
+                "url": "https://packages.wenmarkdigital.com/satispress/events-calendar-pro/7.7.7",
+                "shasum": "3eafca4186ac5d024aee29ff644e1d629ac436fc"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
