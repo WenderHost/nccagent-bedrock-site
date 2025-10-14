@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2233d79bead987228f6913afa3c43822",
+    "content-hash": "666bb6494a554209c9a41ceee68677e9",
     "packages": [
         {
             "name": "composer/installers",
@@ -1291,11 +1291,11 @@
         },
         {
             "name": "wenmark/wordpress-seo-premium",
-            "version": "24.9",
+            "version": "26.1",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/wordpress-seo-premium/24.9",
-                "shasum": "97c15213e8e92dec0435fd2b382df12d4c5a42bf"
+                "url": "https://packages.wenmarkdigital.com/satispress/wordpress-seo-premium/26.1",
+                "shasum": "34cee55031d6fd2ec8e6c6777dfd89ced1324528"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
