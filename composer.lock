@@ -1726,15 +1726,15 @@
         },
         {
             "name": "wpackagist-theme/hello-elementor",
-            "version": "3.4.4",
+            "version": "3.4.5",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/hello-elementor/",
-                "reference": "3.4.4"
+                "reference": "3.4.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/hello-elementor.3.4.4.zip"
+                "url": "https://downloads.wordpress.org/theme/hello-elementor.3.4.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
