@@ -1510,15 +1510,15 @@
         },
         {
             "name": "wpackagist-plugin/search-exclude",
-            "version": "2.5.7",
+            "version": "2.5.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/search-exclude/",
-                "reference": "tags/2.5.7"
+                "reference": "tags/2.5.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/search-exclude.2.5.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/search-exclude.2.5.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
