@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "666bb6494a554209c9a41ceee68677e9",
+    "content-hash": "38419ee29593103bfbbbc1b0992e8ac8",
     "packages": [
         {
             "name": "composer/installers",
@@ -1399,6 +1399,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/limit-login-attempts-reloaded/"
+        },
+        {
+            "name": "wpackagist-plugin/localdev-switcher",
+            "version": "0.6.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/localdev-switcher/",
+                "reference": "tags/0.6.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/localdev-switcher.0.6.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/localdev-switcher/"
         },
         {
             "name": "wpackagist-plugin/login-or-logout-menu-item",
