@@ -1249,11 +1249,11 @@
         },
         {
             "name": "wenmark/gravityforms",
-            "version": "2.9.19",
+            "version": "2.9.22",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gravityforms/2.9.19",
-                "shasum": "24e556f0877f83c12307bfb239060d77a723a44b"
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityforms/2.9.22",
+                "shasum": "8aed24f636692add0ef5b13e9e8f28b3e5e9af27"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
