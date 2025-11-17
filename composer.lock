@@ -1167,16 +1167,16 @@
         },
         {
             "name": "wenderhost/nccagent-extras",
-            "version": "4.5.0",
+            "version": "4.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WenderHost/nccagent-extras.git",
-                "reference": "4fde62020ab31a133bc64f5f7eafb3a7606ed843"
+                "reference": "36e5ce77f96f06cebe3418c9580dd1fc0618bf23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/4fde62020ab31a133bc64f5f7eafb3a7606ed843",
-                "reference": "4fde62020ab31a133bc64f5f7eafb3a7606ed843",
+                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/36e5ce77f96f06cebe3418c9580dd1fc0618bf23",
+                "reference": "36e5ce77f96f06cebe3418c9580dd1fc0618bf23",
                 "shasum": ""
             },
             "require": {
@@ -1201,10 +1201,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/WenderHost/nccagent-extras/tree/4.5.0",
+                "source": "https://github.com/WenderHost/nccagent-extras/tree/4.6.0",
                 "issues": "https://github.com/WenderHost/nccagent-extras/issues"
             },
-            "time": "2025-03-13T07:26:26+00:00"
+            "time": "2025-11-14T22:10:28+00:00"
         },
         {
             "name": "wenmark/elementor-pro",
