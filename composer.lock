@@ -1208,11 +1208,11 @@
         },
         {
             "name": "wenmark/elementor-pro",
-            "version": "3.32.2",
+            "version": "3.33.1",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.32.2",
-                "shasum": "0bcc67e6ef7f94fd1cc506ddf073474f7b954b00"
+                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.33.1",
+                "shasum": "73763942c1908fd3ca92bb5c37844922c6dc0af5"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1348,15 +1348,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.32.4",
+            "version": "3.33.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.32.4"
+                "reference": "tags/3.33.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.32.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.33.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1456,15 +1456,15 @@
         },
         {
             "name": "wpackagist-plugin/peters-login-redirect",
-            "version": "3.0.8.7",
+            "version": "3.0.8.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/peters-login-redirect/",
-                "reference": "tags/3.0.8.7"
+                "reference": "tags/3.0.8.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/peters-login-redirect.3.0.8.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/peters-login-redirect.3.0.8.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
