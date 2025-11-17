@@ -75,7 +75,8 @@
     "wenmark/events-calendar-pro": "^7",
     "wpackagist-plugin/enhanced-user-search": "^1.0",
     "wpackagist-plugin/smtp2go": "^1",
-    "wpackagist-plugin/cimo-image-optimizer": "^1.1"
+    "wpackagist-plugin/cimo-image-optimizer": "^1.1",
+    "wpackagist-plugin/visibility-logic-elementor": "^2.3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
