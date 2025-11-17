@@ -1229,11 +1229,11 @@
         },
         {
             "name": "wenmark/events-calendar-pro",
-            "version": "7.7.8",
+            "version": "7.7.10",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/events-calendar-pro/7.7.8",
-                "shasum": "871f6414ad1b0ca17b2458e4cd71b548350aecae"
+                "url": "https://packages.wenmarkdigital.com/satispress/events-calendar-pro/7.7.10",
+                "shasum": "3c93ef2940bac0abac0b2fa55c12f8080fefd1ec"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1636,15 +1636,15 @@
         },
         {
             "name": "wpackagist-plugin/the-events-calendar",
-            "version": "6.15.8",
+            "version": "6.15.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
-                "reference": "tags/6.15.8"
+                "reference": "tags/6.15.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.15.8.zip"
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.15.11.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
