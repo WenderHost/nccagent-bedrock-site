@@ -1291,11 +1291,11 @@
         },
         {
             "name": "wenmark/wordpress-seo-premium",
-            "version": "26.1",
+            "version": "26.3",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/wordpress-seo-premium/26.1",
-                "shasum": "34cee55031d6fd2ec8e6c6777dfd89ced1324528"
+                "url": "https://packages.wenmarkdigital.com/satispress/wordpress-seo-premium/26.3",
+                "shasum": "cbe62ed78f8242d68dec3fd34c277789a66cb3c0"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1690,15 +1690,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "26.1.1",
+            "version": "26.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/26.1.1"
+                "reference": "tags/26.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.26.1.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.26.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
