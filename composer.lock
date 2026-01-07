@@ -1167,16 +1167,16 @@
         },
         {
             "name": "wenderhost/nccagent-extras",
-            "version": "4.6.0",
+            "version": "4.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WenderHost/nccagent-extras.git",
-                "reference": "36e5ce77f96f06cebe3418c9580dd1fc0618bf23"
+                "reference": "ebac68b3cfcf890991be4aa0ca0edccf739f48b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/36e5ce77f96f06cebe3418c9580dd1fc0618bf23",
-                "reference": "36e5ce77f96f06cebe3418c9580dd1fc0618bf23",
+                "url": "https://api.github.com/repos/WenderHost/nccagent-extras/zipball/ebac68b3cfcf890991be4aa0ca0edccf739f48b8",
+                "reference": "ebac68b3cfcf890991be4aa0ca0edccf739f48b8",
                 "shasum": ""
             },
             "require": {
@@ -1201,10 +1201,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/WenderHost/nccagent-extras/tree/4.6.0",
+                "source": "https://github.com/WenderHost/nccagent-extras/tree/4.6.1",
                 "issues": "https://github.com/WenderHost/nccagent-extras/issues"
             },
-            "time": "2025-11-14T22:10:28+00:00"
+            "time": "2026-01-07T18:13:30+00:00"
         },
         {
             "name": "wenmark/elementor-pro",
@@ -1366,15 +1366,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.34.0",
+            "version": "3.34.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.34.0"
+                "reference": "tags/3.34.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.34.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.34.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
