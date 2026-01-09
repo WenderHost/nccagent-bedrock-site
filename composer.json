@@ -80,7 +80,7 @@
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
     "roave/security-advisories": "dev-latest",
-    "wpackagist-plugin/localdev-switcher": "^0.6.9"
+    "wpackagist-plugin/localdev-switcher": "^0.8.0"
   },
   "config": {
     "optimize-autoloader": true,
