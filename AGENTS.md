@@ -7,6 +7,7 @@ The nccagent.com website is built with WordPress and the roots/bedrock framework
 - `/config/` We set global WordPress PHP Constants here. Find environment specific settings inside `/config/environments/`.
 - `composer.json` manages our WordPress Core and plugin files.
 - We store documentation in `/bin/docs/`.
+- The main custom functionality for this site is implemented via the custom WordPress plugin found in `web/app/plugins/localdev-nccagent-extras/`
 
 ## Local Tooling
 
@@ -14,4 +15,4 @@ The nccagent.com website is built with WordPress and the roots/bedrock framework
 
 ## Upcoming Features
 
-- Integrate WordPress user authentication with CSG Actuarial's [Client User Authorization](https://csgactuarialauthorizationcode.docs.apiary.io/#introduction/authorization-code).
+- Integrate CSG Actuarial mobile app authentication found in `web/app/plugins/localdev-nccagent-extras/lib/fns/csg.php` with CSG's [Client User Authorization](https://csgactuarialauthorizationcode.docs.apiary.io/#introduction/authorization-code).
