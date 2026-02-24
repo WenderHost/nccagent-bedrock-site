@@ -11,3 +11,7 @@ The nccagent.com website is built with WordPress and the roots/bedrock framework
 ## Local Tooling
 
 - `wp-cli` is available; run from `web/`. Verified on February 24, 2026. Use `wp --info` to confirm.
+
+## Upcoming Features
+
+- Integrate WordPress user authentication with CSG Actuarial's [Client User Authorization](https://csgactuarialauthorizationcode.docs.apiary.io/#introduction/authorization-code).
