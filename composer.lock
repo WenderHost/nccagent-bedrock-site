@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8cec5a74b37a6e895a5c9fb1fb3bf7d",
+    "content-hash": "8c75c88047fbf1b98380139e902a97ae",
     "packages": [
         {
             "name": "composer/installers",
@@ -1614,24 +1614,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/updraftplus/"
-        },
-        {
-            "name": "wpackagist-plugin/visibility-logic-elementor",
-            "version": "2.5.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/visibility-logic-elementor/",
-                "reference": "tags/2.5.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/visibility-logic-elementor.2.5.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/visibility-logic-elementor/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
