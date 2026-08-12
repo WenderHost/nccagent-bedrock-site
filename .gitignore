@@ -12,6 +12,7 @@ web/app/updraft/
 sql/
 auth.json
 *.sh
+bin/exports/
 
 # WordPress
 web/wp
