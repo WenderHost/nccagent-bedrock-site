@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1129.16 223.06">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 99px;
+        letter-spacing: 0em;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #043076;
+      }
+
+      .cls-2 {
+        font-size: 102px;
+        letter-spacing: 0em;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #2eafe2;
+      }
+
+      .cls-4 {
+        font-family: Helvetica, Helvetica;
+        font-size: 92px;
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <path class="cls-3" d="M210.87,176.39c-.24-1.41,1.77-1.45,2.78-1.7,11.08-2.73,20.35-3.27,31.74-7.27,34.13-12.01,61.67-36.66,50.97-76.01C273.88,8.77,85.37-24.38,43.69,50.73c-25.15,45.33,16.79,77.04,48.91,99.44.45.32,3.13,1.62,1.76,2.24C42.55,137.3-48.88,63.74,32.19,19.23,102.47-19.35,248.7,9.72,307.39,63.38c27.36,25.01,42.06,60.92,7.39,87.44-27.83,21.29-69.79,26.61-103.91,25.58Z"/>
+  <text class="cls-1" transform="translate(365.06 85.13)"><tspan x="0" y="0">National</tspan></text>
+  <text class="cls-2" transform="translate(62.64 127.75)"><tspan x="0" y="0">NCC</tspan></text>
+  <text class="cls-4" transform="translate(368.48 177.37)"><tspan x="0" y="0">Contracting Center</tspan></text>
+</svg>

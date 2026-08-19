@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<!--
+  NCC Producer Readiness Matrix
+  Companion worksheet for The Agency AEP Readiness Checklist
+  #brand/ncc #compliance-review
+-->
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TGZSPDV');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Producer Readiness Matrix | National Contracting Center</title>
+<meta name="description" content="Track each producer's licensing, certification, ready-to-sell status, and portal access in one AEP readiness grid.">
+<link rel="canonical" href="https://nccagent.com/aep-readiness/producer-readiness-matrix/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Producer Readiness Matrix | National Contracting Center">
+<meta property="og:description" content="Track each producer's licensing, certification, ready-to-sell status, and portal access in one AEP readiness grid.">
+<meta property="og:url" content="https://nccagent.com/aep-readiness/producer-readiness-matrix/">
+<meta property="og:image" content="https://nccagent.com/aep-readiness/assets/hero-agency-aep-readiness.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root {
+    --navy: #002d74;
+    --navy-deep: #071d3f;
+    --cyan: #26ace2;
+    --cyan-pale: #e8f6fc;
+    --orange: #e66f00;
+    --paper: #fbfdff;
+    --canvas: #edf3f8;
+    --ink: #11243f;
+    --muted: #53667e;
+    --line: #cbd8e6;
+    --green: #176f49;
+    --green-pale: #e6f4ed;
+    --yellow: #8a5d00;
+    --yellow-pale: #fff4d6;
+    --red: #9d352c;
+    --red-pale: #fbe9e6;
+    --shadow: 0 20px 58px rgba(0, 45, 116, .1);
+  }
+
+  * { box-sizing: border-box; }
+  html { background: var(--canvas); }
+  body {
+    margin: 0;
+    background: var(--canvas);
+    color: var(--ink);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.45;
+  }
+  button, input, select, textarea { font: inherit; }
+  button, select { cursor: pointer; }
+  button:active { transform: translateY(1px); }
+  button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+    outline: 3px solid rgba(38, 172, 226, .35);
+    outline-offset: 1px;
+  }
+
+  .shell { width: min(100%, 1440px); margin: 0 auto; padding: 24px; }
+
+  .brandbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 72px;
+    padding: 12px 0 20px;
+  }
+  .brandbar img { display: block; width: 220px; height: auto; }
+  .guide-link {
+    color: var(--navy);
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 2px solid var(--cyan);
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(320px, .65fr);
+    gap: 42px;
+    align-items: end;
+    padding: 44px 48px;
+    border-radius: 18px 18px 0 0;
+    background: var(--navy-deep);
+    color: #f8fbff;
+  }
+  .hero .label {
+    margin: 0 0 12px;
+    color: #86daf7;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+  }
+  h1, h2, h3 { font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif; letter-spacing: -.025em; }
+  h1 { margin: 0; font-size: clamp(38px, 5vw, 64px); line-height: 1; letter-spacing: -.05em; }
+  .hero p { max-width: 700px; margin: 18px 0 0; color: #d6e5f3; font-size: 17px; }
+  .hero-note {
+    padding: 20px 22px;
+    border-left: 4px solid var(--orange);
+    background: rgba(255, 255, 255, .07);
+  }
+  .hero-note strong { display: block; margin-bottom: 6px; color: #f8fbff; }
+  .hero-note span { color: #cfdfed; font-size: 14px; }
+
+  .workspace {
+    padding: 34px 36px 38px;
+    border-radius: 0 0 18px 18px;
+    background: var(--paper);
+    box-shadow: var(--shadow);
+  }
+
+  .meta-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr .75fr;
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+  .field { display: grid; gap: 7px; }
+  .field label {
+    color: var(--navy);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+  .field input {
+    min-height: 44px;
+    width: 100%;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: #f8fbfd;
+    color: var(--ink);
+    padding: 10px 12px;
+  }
+
+  .summary {
+    display: grid;
+    grid-template-columns: 1.25fr repeat(4, minmax(105px, .75fr));
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+  .summary-intro {
+    padding: 18px 20px;
+    border-radius: 8px;
+    background: var(--cyan-pale);
+  }
+  .summary-intro h2 { margin: 0 0 5px; color: var(--navy); font-size: 21px; }
+  .summary-intro p { margin: 0; color: var(--muted); font-size: 13px; }
+  .metric {
+    display: grid;
+    align-content: center;
+    min-height: 92px;
+    padding: 14px 16px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: #f8fbfd;
+  }
+  .metric b { color: var(--navy); font-size: 27px; line-height: 1; }
+  .metric span { margin-top: 6px; color: var(--muted); font-size: 11px; font-weight: 700; text-transform: uppercase; }
+  .metric.ready { background: var(--green-pale); border-color: #b8dbc9; }
+  .metric.blocked { background: var(--red-pale); border-color: #edc2bc; }
+
+  .matrix-head {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 13px;
+  }
+  .matrix-head h2 { margin: 0; color: var(--navy); font-size: 27px; }
+  .matrix-head p { margin: 5px 0 0; color: var(--muted); font-size: 13px; }
+  .actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
+  .btn {
+    min-height: 40px;
+    padding: 9px 14px;
+    border: 1px solid var(--navy);
+    border-radius: 8px;
+    background: var(--paper);
+    color: var(--navy);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .btn.primary { border-color: var(--navy); background: var(--navy); color: #f8fbff; }
+  .btn.print { border-color: var(--orange); background: var(--orange); color: #f8fbff; }
+  .btn:hover { background: var(--cyan-pale); }
+  .btn.primary:hover { background: #123f7c; }
+  .btn.print:hover { background: #bc5800; }
+
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
+  table { width: 100%; min-width: 1340px; border-collapse: collapse; table-layout: fixed; }
+  col.producer { width: 130px; }
+  col.npn { width: 100px; }
+  col.state { width: 92px; }
+  col.carrier { width: 126px; }
+  col.product { width: 126px; }
+  col.cert { width: 128px; }
+  col.rts { width: 126px; }
+  col.portal { width: 118px; }
+  col.owner { width: 116px; }
+  col.date { width: 116px; }
+  col.notes { width: 190px; }
+  col.remove { width: 52px; }
+
+  thead { background: var(--navy); color: #f8fbff; }
+  th {
+    padding: 12px 9px;
+    border-right: 1px solid rgba(255, 255, 255, .14);
+    font-size: 10px;
+    line-height: 1.25;
+    letter-spacing: .055em;
+    text-align: left;
+    text-transform: uppercase;
+    vertical-align: bottom;
+  }
+  th:last-child { border-right: 0; text-align: center; }
+  td { padding: 0; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); vertical-align: top; }
+  td:last-child { border-right: 0; }
+  tbody tr:last-child td { border-bottom: 0; }
+  tbody tr:focus-within { background: var(--cyan-pale); }
+  td input, td select, td textarea {
+    width: 100%;
+    min-height: 49px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: var(--ink);
+    padding: 9px;
+    font-size: 12px;
+  }
+  td textarea { display: block; min-height: 58px; resize: vertical; line-height: 1.35; }
+  td input::placeholder, td textarea::placeholder { color: #718298; opacity: 1; }
+  td select { padding-right: 6px; }
+  td select.status-good { background: var(--green-pale); color: var(--green); font-weight: 700; }
+  td select.status-warn { background: var(--yellow-pale); color: var(--yellow); font-weight: 700; }
+  td select.status-bad { background: var(--red-pale); color: var(--red); font-weight: 700; }
+  .remove-row {
+    display: block;
+    width: 100%;
+    min-height: 49px;
+    border: 0;
+    background: transparent;
+    color: var(--red);
+    font-size: 19px;
+    font-weight: 700;
+  }
+  .remove-row:hover { background: var(--red-pale); }
+
+  .matrix-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 24px;
+  }
+  .callout {
+    padding: 20px 22px;
+    border-radius: 8px;
+    background: var(--cyan-pale);
+  }
+  .callout:nth-child(2) { background: var(--navy-deep); color: #f8fbff; }
+  .callout h3 { margin: 0 0 7px; color: var(--navy); font-size: 18px; }
+  .callout:nth-child(2) h3 { color: #86daf7; }
+  .callout p { margin: 0; color: var(--muted); font-size: 13px; }
+  .callout:nth-child(2) p { color: #d3e2ef; }
+
+  .legal { margin: 22px 2px 0; color: var(--muted); font-size: 11px; }
+  .legal strong { color: var(--navy); }
+  .legal a { color: var(--navy); font-weight: 700; }
+
+  .save-state {
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    z-index: 10;
+    padding: 9px 12px;
+    border-radius: 8px;
+    background: var(--navy-deep);
+    color: #f8fbff;
+    font-size: 12px;
+    opacity: 0;
+    transform: translateY(8px);
+    pointer-events: none;
+    transition: opacity .18s ease, transform .18s ease;
+  }
+  .save-state.show { opacity: 1; transform: none; }
+
+  @media (max-width: 900px) {
+    .shell { padding: 14px; }
+    .hero { grid-template-columns: 1fr; gap: 22px; padding: 34px 26px; }
+    .workspace { padding: 26px 20px; }
+    .meta-grid { grid-template-columns: 1fr 1fr; }
+    .summary { grid-template-columns: 1fr 1fr; }
+    .summary-intro { grid-column: 1 / -1; }
+    .matrix-head { align-items: start; flex-direction: column; }
+    .actions { justify-content: flex-start; }
+    .matrix-footer { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 560px) {
+    .brandbar { align-items: flex-start; flex-direction: column; gap: 14px; }
+    .brandbar img { width: 190px; }
+    .meta-grid, .summary { grid-template-columns: 1fr; }
+    .summary-intro { grid-column: auto; }
+    .actions { display: grid; grid-template-columns: 1fr 1fr; width: 100%; }
+    .btn { width: 100%; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition-duration: .01ms !important; }
+  }
+
+  @page { size: Letter landscape; margin: .34in; }
+  @media print {
+    body { background: #fbfdff; font-size: 8pt; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+    .shell { width: auto; max-width: none; padding: 0; }
+    .brandbar { min-height: 0; padding: 0 0 .13in; }
+    .brandbar img { width: 1.75in; }
+    .guide-link, .actions, .remove-col, .save-state { display: none !important; }
+    .hero { grid-template-columns: 1fr .58fr; gap: .25in; padding: .22in .25in; border-radius: 0; }
+    h1 { font-size: 25pt; }
+    .hero .label { margin-bottom: .05in; font-size: 7pt; }
+    .hero p { margin-top: .06in; font-size: 8.5pt; }
+    .hero-note { padding: .1in .13in; }
+    .hero-note span { font-size: 7.5pt; }
+    .workspace { padding: .17in 0 0; border-radius: 0; box-shadow: none; }
+    .meta-grid { grid-template-columns: 1.4fr 1fr 1fr .75fr; gap: .08in; margin-bottom: .13in; }
+    .field { gap: .03in; }
+    .field label { font-size: 6.5pt; }
+    .field input { min-height: .28in; padding: .04in .06in; font-size: 8pt; }
+    .summary { grid-template-columns: 1.25fr repeat(4, .75fr); gap: .06in; margin-bottom: .13in; }
+    .summary-intro, .metric { min-height: .48in; padding: .07in .09in; }
+    .summary-intro h2 { font-size: 11pt; }
+    .summary-intro p { font-size: 6.5pt; }
+    .metric b { font-size: 15pt; }
+    .metric span { margin-top: .02in; font-size: 6pt; }
+    .matrix-head { margin-bottom: .06in; }
+    .matrix-head h2 { font-size: 13pt; }
+    .matrix-head p { font-size: 6.5pt; }
+    .table-wrap { overflow: visible; border-radius: 0; }
+    table { min-width: 0; table-layout: fixed; }
+    col.producer { width: 9.5%; }
+    col.npn { width: 6.7%; }
+    col.state { width: 5.8%; }
+    col.carrier { width: 8.5%; }
+    col.product { width: 8.5%; }
+    col.cert { width: 8.6%; }
+    col.rts { width: 8.4%; }
+    col.portal { width: 7.9%; }
+    col.owner { width: 7.9%; }
+    col.date { width: 7.8%; }
+    col.notes { width: 20.4%; }
+    th { padding: .055in .04in; font-size: 5.8pt; }
+    td input, td select, td textarea { min-height: .28in; padding: .04in; font-size: 6.5pt; }
+    td textarea { height: .36in; resize: none; }
+    tbody tr { break-inside: avoid; page-break-inside: avoid; }
+    .matrix-footer { grid-template-columns: 1fr 1fr; gap: .08in; margin-top: .11in; }
+    .callout { padding: .09in .11in; }
+    .callout h3 { font-size: 9pt; }
+    .callout p { font-size: 6.5pt; }
+    .legal { margin-top: .09in; font-size: 6.3pt; }
+  }
+</style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGZSPDV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<main class="shell">
+  <header class="brandbar">
+    <img src="../assets/NCCLogo-FullColor.svg" alt="National Contracting Center">
+    <a class="guide-link" href="../">Return to the AEP readiness guide</a>
+  </header>
+
+  <section class="hero">
+    <div>
+      <p class="label">Agency AEP Readiness Worksheet</p>
+      <h1>Producer Readiness Matrix</h1>
+      <p>Verify every producer by carrier, product, and market before leads or appointments are assigned.</p>
+    </div>
+    <div class="hero-note">
+      <strong>The operating rule</strong>
+      <span>Do not route a lead until the producer's certification, ready-to-sell status, and system access are verified.</span>
+    </div>
+  </section>
+
+  <section class="workspace">
+    <div class="meta-grid">
+      <div class="field"><label for="agency">Agency</label><input id="agency" data-meta="agency" type="text" placeholder="Agency name"></div>
+      <div class="field"><label for="owner">Matrix owner</label><input id="owner" data-meta="owner" type="text" placeholder="Accountable owner"></div>
+      <div class="field"><label for="review-date">Review date</label><input id="review-date" data-meta="reviewDate" type="date"></div>
+      <div class="field"><label for="aep-year">AEP year</label><input id="aep-year" data-meta="aepYear" type="number" min="2026" max="2100" value="2027"></div>
+    </div>
+
+    <div class="summary" aria-live="polite">
+      <div class="summary-intro">
+        <h2>Readiness snapshot</h2>
+        <p>A row counts as ready only when certification, ready-to-sell status, and portal access are complete.</p>
+      </div>
+      <div class="metric"><b id="row-count">0</b><span>Assignments</span></div>
+      <div class="metric ready"><b id="ready-count">0</b><span>Ready</span></div>
+      <div class="metric"><b id="pending-count">0</b><span>In progress</span></div>
+      <div class="metric blocked"><b id="blocked-count">0</b><span>Blocked</span></div>
+    </div>
+
+    <div class="matrix-head">
+      <div>
+        <h2>Assignment-level verification</h2>
+        <p>Use a separate row for each producer, carrier, product, and state combination.</p>
+      </div>
+      <div class="actions">
+        <button class="btn primary" id="add-row" type="button">Add producer row</button>
+        <button class="btn" id="export-csv" type="button">Export CSV</button>
+        <button class="btn" id="clear-matrix" type="button">Clear matrix</button>
+        <button class="btn print" id="print-matrix" type="button">Print worksheet</button>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <table aria-label="Producer readiness matrix">
+        <colgroup>
+          <col class="producer"><col class="npn"><col class="state"><col class="carrier"><col class="product">
+          <col class="cert"><col class="rts"><col class="portal"><col class="owner"><col class="date"><col class="notes"><col class="remove remove-col">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Producer</th><th>NPN</th><th>State</th><th>Carrier</th><th>Product</th>
+            <th>Certification</th><th>Ready to sell</th><th>Portal access</th><th>Issue owner</th><th>Target date</th><th>Gap, evidence, or next action</th><th class="remove-col">Remove</th>
+          </tr>
+        </thead>
+        <tbody id="matrix-body"></tbody>
+      </table>
+    </div>
+
+    <div class="matrix-footer">
+      <div class="callout">
+        <h3>Evidence standard</h3>
+        <p>Save certification records and confirm ready-to-sell status through the applicable carrier or upline source. A completed training module alone does not prove the producer is ready to sell.</p>
+      </div>
+      <div class="callout">
+        <h3>Leadership checkpoint</h3>
+        <p>Can your lead-routing process prevent an assignment when any one of these three controls is incomplete?</p>
+      </div>
+    </div>
+
+    <p class="legal"><strong>For agent and agency use only.</strong> National Contracting Center is a Field Marketing Organization. This worksheet is an operational planning resource. Confirm current carrier, state, licensing, appointment, certification, and ready-to-sell requirements before assigning business. Final verification remains the agency's responsibility. Entries are stored locally in this browser. Do not enter beneficiary PII, PHI, or other sensitive consumer information. Visit <a href="https://nccagent.com">nccagent.com</a> for NCC contact information.</p>
+  </section>
+</main>
+
+<div class="save-state" id="save-state" role="status">Saved in this browser</div>
+
+<template id="row-template">
+  <tr>
+    <td><input data-key="producer" type="text" aria-label="Producer name" placeholder="Name"></td>
+    <td><input data-key="npn" type="text" inputmode="numeric" aria-label="National Producer Number" placeholder="NPN"></td>
+    <td><input data-key="state" type="text" aria-label="Selling state" placeholder="State"></td>
+    <td><input data-key="carrier" type="text" aria-label="Carrier" placeholder="Carrier"></td>
+    <td><input data-key="product" type="text" aria-label="Product" placeholder="Product"></td>
+    <td><select data-key="certification" aria-label="Certification status"><option value="Not started">Not started</option><option value="In progress">In progress</option><option value="Complete">Complete</option></select></td>
+    <td><select data-key="readyToSell" aria-label="Ready-to-sell status"><option value="Not verified">Not verified</option><option value="Pending">Pending</option><option value="Verified">Verified</option></select></td>
+    <td><select data-key="portal" aria-label="Portal access status"><option value="Not tested">Not tested</option><option value="Issue">Issue</option><option value="Working">Working</option></select></td>
+    <td><input data-key="issueOwner" type="text" aria-label="Issue owner" placeholder="Owner"></td>
+    <td><input data-key="targetDate" type="date" aria-label="Target resolution date"></td>
+    <td><textarea data-key="notes" aria-label="Gap, evidence, or next action" placeholder="Add the gap, evidence location, or next action"></textarea></td>
+    <td class="remove-col"><button class="remove-row" type="button" aria-label="Remove this producer row">×</button></td>
+  </tr>
+</template>
+
+<script>
+  (function () {
+    'use strict';
+
+    var STORAGE_KEY = 'ncc-producer-readiness-matrix-v1';
+    var body = document.getElementById('matrix-body');
+    var template = document.getElementById('row-template');
+    var saveState = document.getElementById('save-state');
+    var saveTimer;
+
+    function blankRow() {
+      return {
+        producer: '', npn: '', state: '', carrier: '', product: '',
+        certification: 'Not started', readyToSell: 'Not verified', portal: 'Not tested',
+        issueOwner: '', targetDate: '', notes: ''
+      };
+    }
+
+    function classify(select) {
+      var good = ['Complete', 'Verified', 'Working'];
+      var warn = ['In progress', 'Pending'];
+      select.classList.remove('status-good', 'status-warn', 'status-bad');
+      if (good.indexOf(select.value) > -1) select.classList.add('status-good');
+      else if (warn.indexOf(select.value) > -1) select.classList.add('status-warn');
+      else select.classList.add('status-bad');
+    }
+
+    function addRow(data, shouldSave) {
+      var row = template.content.firstElementChild.cloneNode(true);
+      var rowData = data || blankRow();
+      row.querySelectorAll('[data-key]').forEach(function (field) {
+        field.value = rowData[field.dataset.key] || '';
+        if (field.tagName === 'SELECT') classify(field);
+      });
+      row.querySelector('.remove-row').addEventListener('click', function () {
+        if (body.rows.length === 1) {
+          row.querySelectorAll('[data-key]').forEach(function (field) {
+            field.value = field.tagName === 'SELECT' ? field.options[0].value : '';
+            if (field.tagName === 'SELECT') classify(field);
+          });
+        } else row.remove();
+        update();
+      });
+      body.appendChild(row);
+      if (shouldSave !== false) update();
+    }
+
+    function getRows() {
+      return Array.prototype.map.call(body.rows, function (row) {
+        var data = {};
+        row.querySelectorAll('[data-key]').forEach(function (field) { data[field.dataset.key] = field.value; });
+        return data;
+      });
+    }
+
+    function getMeta() {
+      var data = {};
+      document.querySelectorAll('[data-meta]').forEach(function (field) { data[field.dataset.meta] = field.value; });
+      return data;
+    }
+
+    function rowState(data) {
+      if (data.certification === 'Complete' && data.readyToSell === 'Verified' && data.portal === 'Working') return 'ready';
+      if (data.certification === 'Not started' || data.readyToSell === 'Not verified' || data.portal === 'Issue') return 'blocked';
+      return 'pending';
+    }
+
+    function updateSummary(rows) {
+      var counts = { ready: 0, pending: 0, blocked: 0 };
+      rows.forEach(function (row) { counts[rowState(row)] += 1; });
+      document.getElementById('row-count').textContent = rows.length;
+      document.getElementById('ready-count').textContent = counts.ready;
+      document.getElementById('pending-count').textContent = counts.pending;
+      document.getElementById('blocked-count').textContent = counts.blocked;
+    }
+
+    function persist(rows) {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({ meta: getMeta(), rows: rows }));
+        saveState.classList.add('show');
+        clearTimeout(saveTimer);
+        saveTimer = setTimeout(function () { saveState.classList.remove('show'); }, 1100);
+      } catch (error) {
+        saveState.textContent = 'Browser saving is unavailable';
+        saveState.classList.add('show');
+      }
+    }
+
+    function update() {
+      body.querySelectorAll('select').forEach(classify);
+      var rows = getRows();
+      updateSummary(rows);
+      persist(rows);
+    }
+
+    function load() {
+      var stored;
+      try { stored = JSON.parse(localStorage.getItem(STORAGE_KEY)); } catch (error) { stored = null; }
+      if (stored && stored.meta) {
+        document.querySelectorAll('[data-meta]').forEach(function (field) {
+          if (stored.meta[field.dataset.meta] !== undefined) field.value = stored.meta[field.dataset.meta];
+        });
+      }
+      var rows = stored && stored.rows && stored.rows.length ? stored.rows : Array.from({ length: 8 }, blankRow);
+      rows.forEach(function (row) { addRow(row, false); });
+      updateSummary(getRows());
+    }
+
+    function csvCell(value) { return '"' + String(value || '').replace(/"/g, '""') + '"'; }
+    function exportCsv() {
+      var headers = ['Producer', 'NPN', 'State', 'Carrier', 'Product', 'Certification', 'Ready to Sell', 'Portal Access', 'Issue Owner', 'Target Date', 'Gap Evidence or Next Action', 'Readiness'];
+      var rows = getRows();
+      var lines = [headers.map(csvCell).join(',')];
+      rows.forEach(function (row) {
+        lines.push([row.producer, row.npn, row.state, row.carrier, row.product, row.certification, row.readyToSell, row.portal, row.issueOwner, row.targetDate, row.notes, rowState(row)].map(csvCell).join(','));
+      });
+      var blob = new Blob([lines.join('\n')], { type: 'text/csv;charset=utf-8' });
+      var link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'NCC-Producer-Readiness-Matrix.csv';
+      document.body.appendChild(link);
+      link.click();
+      URL.revokeObjectURL(link.href);
+      link.remove();
+    }
+
+    body.addEventListener('input', update);
+    body.addEventListener('change', update);
+    document.querySelectorAll('[data-meta]').forEach(function (field) {
+      field.addEventListener('input', function () { persist(getRows()); });
+      field.addEventListener('change', function () { persist(getRows()); });
+    });
+    document.getElementById('add-row').addEventListener('click', function () { addRow(blankRow(), true); });
+    document.getElementById('export-csv').addEventListener('click', exportCsv);
+    document.getElementById('print-matrix').addEventListener('click', function () { window.print(); });
+    document.getElementById('clear-matrix').addEventListener('click', function () {
+      if (!window.confirm('Clear all producer rows and agency details?')) return;
+      body.innerHTML = '';
+      document.querySelectorAll('[data-meta]').forEach(function (field) { field.value = field.id === 'aep-year' ? '2027' : ''; });
+      Array.from({ length: 8 }, blankRow).forEach(function (row) { addRow(row, false); });
+      update();
+    });
+
+    load();
+  }());
+</script>
+</body>
+</html>

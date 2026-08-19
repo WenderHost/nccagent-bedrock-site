@@ -72,7 +72,7 @@
     "wpackagist-plugin/wordpress-seo": "^26",
     "wenmark/wordpress-seo-premium": "^26",
     "wenmark/events-calendar-pro": "^7",
-    "wpackagist-plugin/enhanced-user-search": "^1.0",
+    "wpackagist-plugin/enhanced-user-search": "^2",
     "wpackagist-plugin/smtp2go": "^1",
     "wpackagist-plugin/cimo-image-optimizer": "^1.1"
   },

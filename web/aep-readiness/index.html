@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<!--
+  The Agency AEP Readiness Checklist - interactive HTML guide
+  Source copy: 2026-07-13_NCC_guide_agency-aep-readiness-checklist.md (compliance-fixed final copy)
+  Brand identity: NCC Visual Style Guide (Navy #002d74 / Cyan #26ace2 / Orange #ff8200).
+  NOTE (internal, remove before external publish): regulatory statements in Sections 3 and 5 and the
+  "50+ carriers" count require Heather Burley's sign-off before publication. #compliance-review
+-->
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TGZSPDV');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Agency AEP Readiness Checklist | National Contracting Center</title>
+<meta name="description" content="A seven-part AEP operating review for agency owners and principals: contracting, book of business, marketing, technology, compliance, sales, and team readiness before October 15.">
+<link rel="canonical" href="https://nccagent.com/aep-readiness/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Agency AEP Readiness Checklist | National Contracting Center">
+<meta property="og:description" content="A seven-part AEP operating review for agency owners and principals. Score your agency and close your readiness gaps before October 15.">
+<meta property="og:url" content="https://nccagent.com/aep-readiness/">
+<meta property="og:image" content="https://nccagent.com/aep-readiness/assets/hero-agency-aep-readiness.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #002d74;
+    --cyan: #26ace2;
+    --orange: #ff8200;
+    --lightblue: #7eadd6;
+    --bg-blue: #e1eff9;
+    --ink: #16233d;
+    --muted: #5a6b85;
+    --white: #f8fbff;
+    --green: #1e8e5a;
+    --yellow: #d99a06;
+    --red: #c8442c;
+  }
+
+  html { scroll-behavior: smooth; }
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    line-height: 1.55;
+    background: #f4f8fc;
+    font-size: 16px;
+  }
+
+  h1, h2, h3, .eyebrow, .btn, .sec-num, .pill, .counter {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+  }
+
+  .wrap { max-width: 820px; margin: 0 auto; padding: 0 22px; }
+
+  /* ---------- Reading progress ---------- */
+  #progress {
+    position: fixed; top: 0; left: 0; height: 3px; width: 0%;
+    background: linear-gradient(90deg, var(--cyan), var(--orange));
+    z-index: 60; transition: width .1s linear;
+  }
+
+  /* ---------- Top bar ---------- */
+  .topbar { background: var(--navy); padding: 16px 0; }
+  .topbar .wrap { display: flex; align-items: center; justify-content: space-between; }
+  .logo {
+    display: flex; align-items: center; gap: 10px;
+    color: var(--white); font-family: "Poppins"; font-weight: 700; letter-spacing: .5px;
+  }
+  .logo .mark {
+    width: 34px; height: 34px; border-radius: 8px;
+    background: var(--cyan); color: var(--navy);
+    display: grid; place-items: center; font-weight: 700; font-size: 15px;
+  }
+  .logo small { display: block; font-weight: 500; font-size: 11px; color: var(--lightblue); letter-spacing: 1px; }
+  .topbar .nav-cta {
+    color: var(--white); font-size: 13px; text-decoration: none;
+    border: 1px solid rgba(255,255,255,.35); padding: 8px 16px; border-radius: 6px;
+    transition: background-color .15s ease;
+  }
+  .topbar .nav-cta:hover { background: rgba(38,172,226,.25); }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    background: linear-gradient(135deg, var(--navy) 0%, #013a94 55%, #0a4fb0 100%);
+    color: var(--white);
+    padding: 70px 0 62px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::after {
+    content: ""; position: absolute; right: -80px; top: -80px;
+    width: 340px; height: 340px; border-radius: 50%;
+    background: radial-gradient(circle at center, rgba(38,172,226,.35), transparent 70%);
+  }
+  .hero .eyebrow {
+    color: var(--cyan); font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+    font-size: 12px; margin-bottom: 16px;
+  }
+  .hero h1 { font-size: 40px; line-height: 1.15; font-weight: 700; margin: 0 0 18px; max-width: 660px; }
+  .hero h1 .accent { color: var(--cyan); }
+  .hero p.lead { font-size: 18px; max-width: 620px; margin: 0 0 12px; color: #dbe7f7; }
+  .hero p.thesis { font-size: 18px; max-width: 620px; margin: 16px 0 30px; }
+  .hero p.thesis strong { color: var(--orange); }
+
+  .btn {
+    display: inline-block; text-decoration: none; font-weight: 600; font-size: 15px;
+    padding: 14px 28px; border-radius: 8px; cursor: pointer; border: none;
+    transition: background .15s ease, transform .1s ease;
+  }
+  .btn:active { transform: scale(.98); }
+  .btn-primary { background: var(--orange); color: var(--white); }
+  .btn-primary:hover { background: #e57400; }
+
+  /* ---------- Intro ---------- */
+  .intro { padding: 52px 0 10px; }
+  .intro h2 { font-size: 26px; color: var(--navy); margin: 0 0 14px; }
+  .intro p { max-width: 680px; }
+  .howto {
+    background: var(--white); border-radius: 12px; padding: 22px 24px;
+    border-left: 4px solid var(--cyan); box-shadow: 0 1px 3px rgba(0,45,116,.06);
+    margin: 26px 0 8px;
+  }
+  .howto h3 { margin: 0 0 10px; color: var(--navy); font-size: 17px; }
+  .howto ol { margin: 0; padding-left: 20px; }
+  .howto li { margin: 6px 0; }
+
+  /* ---------- Rating legend ---------- */
+  .legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 6px; }
+  .legend .chip {
+    flex: 1 1 200px; background: var(--white); border-radius: 10px; padding: 14px 16px;
+    box-shadow: 0 1px 3px rgba(0,45,116,.06); font-size: 14px;
+  }
+  .chip b { display: block; font-family: "Poppins"; margin-bottom: 4px; }
+  .chip.green { border-top: 3px solid var(--green); }
+  .chip.yellow { border-top: 3px solid var(--yellow); }
+  .chip.red { border-top: 3px solid var(--red); }
+
+  /* ---------- Snapshot scorecard ---------- */
+  .snapshot { background: var(--bg-blue); padding: 46px 0; margin-top: 40px; }
+  .snapshot h2 { font-size: 24px; color: var(--navy); margin: 0 0 6px; }
+  .snapshot .sub { color: var(--muted); margin: 0 0 22px; font-size: 15px; }
+  .score-row {
+    display: flex; align-items: center; gap: 14px;
+    background: var(--white); border-radius: 10px; padding: 13px 16px; margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0,45,116,.06);
+  }
+  .score-row .num {
+    width: 30px; height: 30px; border-radius: 50%; flex: none;
+    background: var(--navy); color: var(--white);
+    display: grid; place-items: center; font-family: "Poppins"; font-weight: 600; font-size: 14px;
+  }
+  .score-row .cat { flex: 1; font-size: 15px; }
+  .score-row .cat a { color: inherit; text-decoration: none; }
+  .score-row .cat a:hover { color: var(--cyan); }
+  .pills { display: flex; gap: 6px; }
+  .pill {
+    font-size: 11px; font-weight: 600; letter-spacing: .4px;
+    padding: 6px 10px; border-radius: 999px; cursor: pointer;
+    border: 1.5px solid #cdd9ea; background: var(--white); color: var(--muted);
+    transition: background-color .15s ease, color .15s ease, border-color .15s ease, transform .1s ease;
+  }
+  .pill:hover { transform: translateY(-1px); }
+  .pill.on-green  { background: var(--green);  border-color: var(--green);  color: var(--white); }
+  .pill.on-yellow { background: var(--yellow); border-color: var(--yellow); color: var(--white); }
+  .pill.on-red    { background: var(--red);    border-color: var(--red);    color: var(--white); }
+  .start-q {
+    margin-top: 22px; background: var(--navy); color: var(--white);
+    border-radius: 12px; padding: 20px 24px;
+  }
+  .start-q .kicker { color: var(--cyan); font-size: 11px; letter-spacing: 2px; text-transform: uppercase; font-weight: 600; }
+  .start-q p { margin: 8px 0 0; font-size: 18px; font-family: "Poppins"; font-weight: 500; }
+
+  /* ---------- Sections ---------- */
+  .section { padding: 50px 0 8px; }
+  .sec-head { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 6px; }
+  .sec-num {
+    flex: none; width: 46px; height: 46px;
+    background: var(--navy); color: var(--white);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    display: grid; place-items: center; font-weight: 700; font-size: 18px;
+  }
+  .section h2 { font-size: 24px; color: var(--navy); margin: 4px 0 2px; }
+  .sec-tag { color: var(--cyan); font-weight: 600; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; }
+  .goal { background: var(--white); border-radius: 10px; padding: 14px 18px; margin: 14px 0 10px;
+    border-left: 4px solid var(--orange); box-shadow: 0 1px 3px rgba(0,45,116,.06); font-size: 15px; }
+  .goal b { font-family: "Poppins"; color: var(--navy); }
+  .section > .wrap > p { max-width: 680px; }
+
+  /* checklist */
+  .checklist { list-style: none; margin: 18px 0 0; padding: 0; }
+  .checklist li { margin-bottom: 8px; }
+  .checklist label {
+    display: flex; gap: 12px; align-items: flex-start;
+    background: var(--white); border-radius: 10px; padding: 13px 16px;
+    box-shadow: 0 1px 3px rgba(0,45,116,.06); cursor: pointer; font-size: 15px;
+    border-left: 3px solid transparent;
+    transition: border-left-color .15s ease, background-color .15s ease;
+  }
+  .checklist label:hover { border-left-color: var(--cyan); }
+  .checklist input { position: absolute; opacity: 0; }
+  .box {
+    flex: none; width: 20px; height: 20px; margin-top: 2px;
+    border: 2px solid var(--lightblue); border-radius: 5px; position: relative;
+    transition: background-color .15s ease, border-color .15s ease;
+  }
+  .box::after {
+    content: ""; position: absolute; left: 5px; top: 1px; width: 5px; height: 10px;
+    border: solid var(--white); border-width: 0 2.5px 2.5px 0;
+    transform: rotate(45deg) scale(0); transition: transform .18s ease;
+  }
+  .checklist input:checked + .box { background: var(--green); border-color: var(--green); }
+  .checklist input:checked + .box::after { transform: rotate(45deg) scale(1); }
+  .checklist input:checked ~ .txt { color: var(--muted); }
+  .checklist input:focus-visible + .box { outline: 2px solid var(--cyan); outline-offset: 2px; }
+  .counter {
+    display: inline-block; margin: 14px 0 0; font-size: 12px; font-weight: 600;
+    color: var(--navy); background: var(--bg-blue); border-radius: 999px; padding: 6px 14px;
+  }
+  .counter.done { background: var(--green); color: var(--white); }
+
+  /* worksheet + checkpoint */
+  .worksheet {
+    border: 1.5px solid var(--navy); border-radius: 10px; padding: 14px 18px; margin: 20px 0 0;
+    font-size: 14px; background: var(--white);
+  }
+  .worksheet b { font-family: "Poppins"; color: var(--navy); display: block; margin-bottom: 4px; }
+  .worksheet a { color: inherit; text-decoration: none; }
+  .worksheet a:hover b { color: #087fae; }
+  .checkpoint {
+    background: var(--bg-blue); border-left: 4px solid var(--cyan);
+    border-radius: 0 10px 10px 0; padding: 18px 22px; margin: 20px 0 0;
+  }
+  .checkpoint .kicker { color: var(--navy); font-size: 11px; letter-spacing: 2px; text-transform: uppercase; font-weight: 600; }
+  .checkpoint p { margin: 6px 0 0; font-style: italic; font-size: 16.5px; color: var(--navy); }
+
+  /* ---------- Go / No-Go ---------- */
+  .gonogo { background: var(--navy); color: var(--white); padding: 54px 0; margin-top: 54px; }
+  .gonogo h2 { font-size: 26px; margin: 0 0 8px; }
+  .gonogo .sub { color: var(--lightblue); margin: 0 0 26px; }
+  .gng-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+  .gng-card { background: rgba(255,255,255,.07); border-radius: 12px; padding: 20px 22px; }
+  .gng-card h3 { color: var(--cyan); font-size: 16px; margin: 0 0 12px; }
+  .gng-card ol, .gng-card ul { margin: 0; padding-left: 20px; font-size: 14.5px; }
+  .gng-card li { margin: 7px 0; color: #dbe7f7; }
+  .gonogo .closer { margin-top: 24px; font-size: 16px; color: var(--white); max-width: 640px; }
+  @media (max-width: 700px) { .gng-grid { grid-template-columns: 1fr; } }
+
+  /* ---------- NCC section ---------- */
+  .ncc { padding: 54px 0 10px; }
+  .ncc h2 { font-size: 26px; color: var(--navy); margin: 0 0 6px; }
+  .ncc .sub { color: var(--muted); margin: 0 0 20px; }
+  .ncc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 22px 0; }
+  .ncc-card {
+    background: var(--white); border-radius: 10px; padding: 16px 18px;
+    box-shadow: 0 1px 3px rgba(0,45,116,.06); border-top: 3px solid var(--cyan); font-size: 14.5px;
+  }
+  .ncc-card b { font-family: "Poppins"; color: var(--navy); display: block; margin-bottom: 5px; }
+  @media (max-width: 700px) { .ncc-grid { grid-template-columns: 1fr; } }
+  .fineprint { font-size: 13px; color: var(--muted); max-width: 680px; }
+
+  .cta-band {
+    background: linear-gradient(135deg, var(--navy), #0a4fb0); color: var(--white);
+    border-radius: 14px; padding: 34px 34px; margin: 34px 0 0;
+    display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;
+  }
+  .cta-band h3 { font-size: 21px; margin: 0 0 6px; }
+  .cta-band p { margin: 0; color: #dbe7f7; font-size: 15px; max-width: 440px; }
+
+  /* ---------- Footer ---------- */
+  footer { background: #0b1e42; color: #9fb2d4; padding: 40px 0 50px; margin-top: 60px; font-size: 12.5px; }
+  footer .legal { max-width: 760px; line-height: 1.6; }
+  footer .use-line { color: var(--white); font-weight: 700; margin-bottom: 14px; font-family: "Poppins"; font-size: 13px; }
+
+  /* ---------- Scroll reveal (hidden state applies only when JS enables body.anim) ---------- */
+  body.anim .reveal { opacity: 0; transform: translateY(18px); transition: opacity .5s ease, transform .5s ease; }
+  body.anim .reveal.visible { opacity: 1; transform: none; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    body.anim .reveal { opacity: 1; transform: none; transition: none; }
+    #progress, .pill, .btn, .box, .box::after, .checklist label { transition: none; }
+  }
+</style>
+<style id="taste-redesign">
+  /*
+    Redesign direction: executive operating workbook.
+    Shape system: 2px controls, 8px utility panels, 18px feature panels.
+    Theme: light, print-first. Accent: NCC cyan. Orange is reserved for action.
+  */
+  :root {
+    --navy: #002d74;
+    --navy-deep: #071d3f;
+    --navy-soft: #123d78;
+    --cyan: #26ace2;
+    --cyan-pale: #e9f7fc;
+    --orange: #e66f00;
+    --paper: #fbfdff;
+    --canvas: #eef3f8;
+    --ink: #10233f;
+    --muted: #52647d;
+    --line: #ccd9e7;
+    --green: #16734a;
+    --yellow: #9c6800;
+    --red: #a9372a;
+    --shadow: 0 20px 55px rgba(0, 45, 116, .10);
+  }
+
+  html { scroll-padding-top: 24px; }
+  body {
+    background: transparent;
+    color: var(--ink);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.58;
+  }
+  .guide-shell {
+    width: min(100%, 1180px);
+    margin: 0 auto;
+    overflow: hidden;
+    background: var(--paper);
+  }
+  h1, h2, h3, .btn, .sec-num, .pill, .counter, .logo-copy {
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  }
+  h1, h2, h3 {
+    font-weight: 700;
+    letter-spacing: -.025em;
+  }
+  .wrap { width: min(100%, 1180px); max-width: 1180px; padding-inline: 32px; }
+  #progress { display: none; }
+
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    min-height: 72px;
+    padding: 12px 0;
+    background: rgba(255, 255, 255, .96);
+    border-bottom: 1px solid rgba(0, 45, 116, .14);
+    box-shadow: 0 8px 28px rgba(0, 45, 116, .07);
+  }
+  .topbar .wrap { min-height: 47px; }
+  .brand-lockup { display: flex; align-items: center; min-width: 0; }
+  .brand-lockup img { display: block; width: 214px; height: auto; }
+  .topbar .nav-cta {
+    flex: none;
+    padding: 10px 17px;
+    border: 1px solid var(--navy);
+    border-radius: 2px;
+    color: var(--navy);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .01em;
+  }
+  .topbar .nav-cta:hover { background: var(--navy); color: #f8fbff; }
+
+  .hero {
+    min-height: 0;
+    padding: 28px 0 34px;
+    background: var(--paper);
+  }
+  .hero .wrap {
+    width: calc(100% - 48px);
+    margin-inline: auto;
+    min-height: clamp(560px, 68dvh, 650px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 64px clamp(32px, 6vw, 72px);
+    border-radius: 18px;
+    overflow: hidden;
+    background:
+      linear-gradient(90deg, rgba(7,29,63,.98) 0%, rgba(7,29,63,.93) 37%, rgba(7,29,63,.62) 61%, rgba(7,29,63,.18) 100%),
+      url("assets/hero-agency-aep-readiness.png") center / cover no-repeat;
+    box-shadow: 0 24px 70px rgba(7,29,63,.18);
+  }
+  .hero::after {
+    display: none;
+  }
+  .hero .wrap { position: relative; z-index: 1; }
+  .cover-logo { display: none; width: 240px; height: auto; margin-bottom: 52px; }
+  .hero .eyebrow {
+    margin-bottom: 20px;
+    color: #89d8f4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .16em;
+  }
+  .hero h1 {
+    max-width: 900px;
+    margin-bottom: 22px;
+    font-size: clamp(46px, 6.4vw, 74px);
+    line-height: .98;
+    letter-spacing: -.055em;
+  }
+  .hero h1 .accent { color: #82d8f6; }
+  .hero p.lead {
+    max-width: 640px;
+    margin-bottom: 0;
+    color: #d5e7f5;
+    font-size: 19px;
+  }
+  .hero p.thesis {
+    max-width: 680px;
+    margin: 18px 0 30px;
+    color: #f4f8fc;
+    font-size: 17px;
+  }
+  .hero p.thesis strong { color: #ff9a3d; }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    gap: 10px;
+    min-height: 48px;
+    border: 1px solid rgba(255,255,255,.28);
+    border-radius: 8px;
+    padding: 12px 20px;
+    white-space: nowrap;
+    font-weight: 700;
+    letter-spacing: .01em;
+    box-shadow: 0 10px 24px rgba(188,83,0,.24), inset 0 1px 0 rgba(255,255,255,.24);
+    transition: background-color .2s ease, box-shadow .2s ease, transform .2s ease;
+  }
+  .btn::after {
+    content: "\2192";
+    font-size: 19px;
+    line-height: 1;
+    transition: transform .2s ease;
+  }
+  .btn-primary { background: #e8750a; color: #071d3f; }
+  .btn-primary:hover {
+    background: #d66a06;
+    box-shadow: 0 14px 30px rgba(188,83,0,.3), inset 0 1px 0 rgba(255,255,255,.2);
+    transform: translateY(-2px);
+  }
+  .btn-primary:hover::after { transform: translateX(3px); }
+  .btn-primary:focus-visible { outline: 3px solid #82d8f6; outline-offset: 4px; }
+  .btn-primary:active { transform: translateY(0) scale(.98); }
+
+  .intro {
+    padding: 64px 0 32px;
+    background: var(--paper);
+  }
+  .intro h2, .snapshot h2, .ncc h2 {
+    max-width: 900px;
+    color: var(--navy);
+    font-size: clamp(30px, 4vw, 44px);
+    line-height: 1.08;
+  }
+  .intro p { max-width: 900px; color: #344861; }
+  .howto {
+    display: grid;
+    grid-template-columns: minmax(180px, .65fr) minmax(0, 1.35fr);
+    gap: 28px;
+    margin: 38px 0 26px;
+    padding: 30px;
+    border: 0;
+    border-radius: 18px;
+    background: var(--navy);
+    box-shadow: var(--shadow);
+    color: #dfeaf6;
+  }
+  .howto h3 { margin: 2px 0 0; color: #f8fbff; font-size: 22px; }
+  .howto ol { margin: 0; padding-left: 22px; }
+  .howto li { margin: 0 0 10px; padding-left: 5px; }
+  .legend { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .legend .chip {
+    min-height: 118px;
+    padding: 20px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    box-shadow: none;
+    color: var(--muted);
+  }
+  .legend .chip b { color: var(--ink); font-size: 17px; }
+  .chip.green, .chip.yellow, .chip.red { border-top-width: 5px; }
+
+  .snapshot {
+    margin: 0;
+    padding: 72px 0;
+    background: var(--canvas);
+  }
+  .snapshot .sub { max-width: 700px; margin-bottom: 30px; }
+  .score-row {
+    display: grid;
+    grid-template-columns: 48px minmax(220px, 1fr) auto;
+    gap: 16px;
+    margin: 0;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--line);
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+  .score-row:first-of-type { border-top: 1px solid var(--line); }
+  .score-row .num {
+    width: 34px;
+    height: 34px;
+    border-radius: 2px;
+    background: var(--navy);
+  }
+  .score-row .cat { font-size: 16px; font-weight: 700; }
+  .pills { gap: 7px; }
+  .pill {
+    min-width: 66px;
+    border-radius: 2px;
+    background: transparent;
+    letter-spacing: 0;
+  }
+  .pill:hover { border-color: var(--navy); transform: translateY(-1px); }
+  .start-q {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 24px;
+    align-items: center;
+    margin-top: 30px;
+    padding: 28px 30px;
+    border-radius: 18px;
+    background: var(--navy-deep);
+  }
+  .start-q .kicker { margin: 0; color: #7bd3f3; }
+  .start-q p { margin: 0; font-size: 19px; line-height: 1.42; }
+
+  .section {
+    padding: 78px 0 22px;
+    background: var(--paper);
+  }
+  .section:nth-of-type(even) { background: #f7fafc; }
+  .sec-head {
+    display: grid;
+    grid-template-columns: 76px minmax(0, 1fr);
+    gap: 22px;
+    align-items: start;
+    margin-bottom: 24px;
+  }
+  .sec-num {
+    width: 64px;
+    height: 64px;
+    border-radius: 2px;
+    clip-path: none;
+    background: var(--navy);
+    font-size: 24px;
+  }
+  .sec-tag {
+    margin-bottom: 4px;
+    color: #087fae;
+    font-size: 12px;
+    letter-spacing: .12em;
+  }
+  .section h2 {
+    max-width: 720px;
+    margin: 0;
+    color: var(--navy);
+    font-size: clamp(28px, 3.8vw, 41px);
+    line-height: 1.09;
+  }
+  .goal {
+    margin: 0 0 20px;
+    padding: 18px 22px;
+    border: 0;
+    border-radius: 8px;
+    background: var(--cyan-pale);
+    box-shadow: none;
+    color: #2f4963;
+  }
+  .section > .wrap > p { max-width: 720px; margin-left: 0; }
+
+  .checklist {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin: 30px 0 0;
+  }
+  .checklist li { margin: 0; }
+  .checklist label {
+    height: 100%;
+    min-height: 104px;
+    gap: 13px;
+    padding: 17px;
+    border: 1px solid var(--line);
+    border-left: 1px solid var(--line);
+    border-radius: 8px;
+    box-shadow: none;
+    line-height: 1.45;
+  }
+  .checklist label:hover { border-color: var(--cyan); background: var(--cyan-pale); }
+  .box { border-radius: 2px; }
+  .checklist input:checked ~ .txt { color: #385069; }
+  .checklist input:checked + .box { background: var(--green); border-color: var(--green); }
+  .counter {
+    margin-top: 16px;
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    background: transparent;
+    color: var(--navy);
+  }
+  .worksheet {
+    margin-top: 24px;
+    padding: 21px 24px;
+    border: 1px solid var(--navy);
+    border-radius: 8px;
+    background: transparent;
+  }
+  .checkpoint {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 24px;
+    align-items: center;
+    margin-top: 12px;
+    padding: 23px 24px;
+    border: 0;
+    border-radius: 8px;
+    background: var(--navy);
+    color: #f8fbff;
+  }
+  .checkpoint .kicker { margin: 0; color: #87d9f5; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; font-weight: 700; }
+  .checkpoint p { margin: 0; color: #f8fbff; font-size: 17px; line-height: 1.4; }
+
+  .gonogo {
+    margin: 0;
+    padding: 54px 0;
+    background: var(--paper);
+  }
+  .gonogo .wrap {
+    width: calc(100% - 48px);
+    margin-inline: auto;
+    padding: 58px clamp(32px, 5vw, 64px);
+    border-radius: 18px;
+    background:
+      radial-gradient(circle at 90% 5%, rgba(38,172,226,.22), transparent 31%),
+      var(--navy-deep);
+    box-shadow: 0 24px 70px rgba(7,29,63,.16);
+  }
+  .gonogo h2 { max-width: 680px; font-size: clamp(34px, 5vw, 52px); line-height: 1.03; }
+  .gonogo .sub { max-width: 670px; color: #c7dcec; }
+  .gng-grid { grid-template-columns: 1.1fr .9fr; gap: 12px; }
+  .gng-card {
+    padding: 28px;
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: 8px;
+    background: rgba(255,255,255,.055);
+  }
+  .gng-card h3 { color: #86dbf7; font-size: 19px; }
+
+  .ncc { padding: 84px 0 30px; background: var(--paper); }
+  .ncc .sub { font-weight: 700; color: #087fae; }
+  .ncc > .wrap > p:not(.sub):not(.fineprint) { max-width: 720px; }
+  .ncc-grid {
+    grid-template-columns: 1.18fr .82fr;
+    gap: 10px;
+    margin: 34px 0 24px;
+  }
+  .ncc-card {
+    min-height: 144px;
+    padding: 22px;
+    border: 1px solid var(--line);
+    border-top: 1px solid var(--line);
+    border-radius: 8px;
+    box-shadow: none;
+  }
+  .ncc-card:nth-child(1), .ncc-card:nth-child(4), .ncc-card:nth-child(5) {
+    background: var(--cyan-pale);
+    border-color: #b7e5f5;
+  }
+  .ncc-card b { font-size: 17px; }
+  .fineprint {
+    padding: 20px 22px;
+    border-left: 4px solid var(--cyan);
+    background: #f4f8fc;
+  }
+  .cta-band {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-top: 30px;
+    padding: 34px;
+    border-radius: 18px;
+    background: var(--navy);
+  }
+
+  .legal-note {
+    padding: 28px 0 36px;
+    background: var(--paper);
+    color: var(--muted);
+    font-size: 12.5px;
+  }
+  .legal-note .legal { max-width: 820px; line-height: 1.6; }
+  .legal-note .use-line {
+    margin-bottom: 10px;
+    color: var(--navy);
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+  }
+
+  @media (max-width: 767px) {
+    .wrap { padding-inline: 20px; }
+    .topbar { position: static; }
+    .brand-lockup img { width: 178px; }
+    .topbar .nav-cta { padding: 8px 10px; }
+    .hero { padding: 16px 0 28px; }
+    .hero .wrap {
+      width: calc(100% - 28px);
+      min-height: 520px;
+      margin-inline: auto;
+      padding: 42px 26px;
+      border-radius: 14px;
+      background:
+        linear-gradient(180deg, rgba(7,29,63,.95) 0%, rgba(7,29,63,.83) 64%, rgba(7,29,63,.7) 100%),
+        url("assets/hero-agency-aep-readiness.png") 68% center / cover no-repeat;
+    }
+    .hero h1 { font-size: clamp(42px, 12vw, 58px); }
+    .howto, .start-q, .checkpoint, .cta-band { grid-template-columns: 1fr; gap: 14px; }
+    .legend { grid-template-columns: 1fr; }
+    .score-row { grid-template-columns: 40px 1fr; }
+    .score-row .pills { grid-column: 1 / -1; padding-left: 56px; flex-wrap: wrap; }
+    .sec-head { grid-template-columns: 50px 1fr; gap: 14px; }
+    .sec-num { width: 48px; height: 48px; font-size: 19px; }
+    .goal, .section > .wrap > p { margin-left: 0; }
+    .checklist, .gng-grid, .ncc-grid { grid-template-columns: 1fr; }
+    .checklist label { min-height: 0; }
+    .cta-band .btn { width: auto; justify-self: start; white-space: nowrap; }
+    .gonogo { padding: 28px 0; }
+    .gonogo .wrap { width: calc(100% - 28px); margin-inline: auto; padding: 38px 26px; border-radius: 14px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+  }
+
+  @page { size: Letter; margin: .55in .55in .62in; }
+  @media print {
+    :root {
+      --canvas: #fbfdff;
+      --line: #b8c4d1;
+    }
+    html { scroll-padding-top: 0; }
+    body { background: #fbfdff; font-size: 9.5pt; line-height: 1.38; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+    #progress, .hero .btn { display: none !important; }
+    .guide-shell { width: 100%; overflow: visible; }
+    .wrap { max-width: none; padding: 0; }
+    .hero {
+      min-height: 9.5in;
+      padding: .72in .62in;
+      page-break-after: always;
+      break-after: page;
+      background:
+        linear-gradient(90deg, rgba(7,29,63,.98) 0%, rgba(7,29,63,.93) 37%, rgba(7,29,63,.62) 61%, rgba(7,29,63,.18) 100%),
+        url("assets/hero-agency-aep-readiness.png") center / cover no-repeat;
+    }
+    .hero .wrap { width: 100%; min-height: 0; padding: 0; border-radius: 0; background: none; box-shadow: none; }
+    .hero h1 { max-width: 6.8in; font-size: 48pt; }
+    .cover-logo { display: block; }
+    .hero p.lead { font-size: 14pt; }
+    .hero p.thesis { font-size: 12pt; }
+    .intro, .snapshot, .section, .gonogo, .ncc { padding: .12in 0; background: #fbfdff; }
+    .intro { page-break-after: always; break-after: page; }
+    .intro h2, .snapshot h2, .ncc h2 { font-size: 24pt; }
+    .howto { margin: .24in 0 .16in; padding: .22in; box-shadow: none; }
+    .legend .chip { min-height: 0; padding: .14in; }
+    .snapshot { page-break-after: always; break-after: page; }
+    .score-row { padding: .09in 0; }
+    .pill { min-width: 54px; padding: 4px 7px; font-size: 7.5pt; }
+    .start-q { margin-top: .18in; padding: .18in; }
+    .section {
+      page-break-before: always;
+      break-before: page;
+    }
+    .sec-head { grid-template-columns: 54px 1fr; gap: 14px; margin-bottom: .12in; }
+    .sec-num { width: 46px; height: 46px; font-size: 18pt; }
+    .section h2 { font-size: 23pt; }
+    .goal { margin: 0 0 .12in; padding: .12in .15in; }
+    .section > .wrap > p { margin: 0 0 .14in; }
+    .checklist { gap: .07in; margin-top: .16in; }
+    .checklist label { min-height: 0; padding: .09in; font-size: 8.5pt; }
+    .box { width: 14px; height: 14px; }
+    .box::after { left: 3px; top: 0; width: 4px; height: 8px; }
+    .counter { margin-top: .08in; padding: 3px 8px; font-size: 7.5pt; }
+    .worksheet, .checkpoint { margin-top: .1in; padding: .12in .15in; font-size: 8.5pt; }
+    .checkpoint { grid-template-columns: 1.15in 1fr; }
+    .checkpoint p { font-size: 9pt; }
+    .checklist li, .worksheet, .checkpoint, .score-row, .legend .chip, .gng-card, .ncc-card {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .gonogo {
+      page-break-before: always;
+      break-before: page;
+      padding: .3in;
+      background: var(--navy-deep);
+    }
+    .gonogo .wrap { width: 100%; padding: 0; border-radius: 0; background: none; box-shadow: none; }
+    .gonogo h2 { font-size: 27pt; }
+    .gng-card { padding: .16in; }
+    .ncc {
+      page-break-before: always;
+      break-before: page;
+    }
+    .ncc-grid { gap: .07in; margin: .16in 0; }
+    .ncc-card { min-height: 0; padding: .12in; font-size: 8.5pt; }
+    .cta-band { display: none; }
+    .legal-note { padding: .24in 0; background: #fbfdff; color: #40536d; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGZSPDV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<main class="guide-shell">
+
+<section class="hero">
+  <div class="wrap">
+    <img class="cover-logo" src="assets/NCCLogo-White.svg" alt="National Contracting Center">
+    <div class="eyebrow">For Agency Owners and Principals</div>
+    <h1>The Agency AEP <span class="accent">Readiness Checklist</span></h1>
+    <p class="lead">A seven-part operating review for agency owners. Run it before October 15.</p>
+    <p class="thesis">Certification gets your agents to the starting line. <strong>This checklist gets your whole agency there.</strong></p>
+    <a class="btn btn-primary" href="#snapshot">Score My Agency</a>
+  </div>
+</section>
+
+<section class="intro">
+  <div class="wrap reveal">
+    <h2>AEP does not reward the busiest agency. It rewards the most prepared one.</h2>
+    <p>The Annual Enrollment Period runs October 15 through December 7. Those 54 days can decide your agency's year. Most owners make sure their agents finish certification. Far fewer pressure-test the rest of the business: the book of business, the lead plan, the systems, the compliance file, and the team.</p>
+    <p>That gap is where AEP breaks down. Not in October. In July and August, when no one asked the hard questions.</p>
+    <p>This checklist gives you those questions. It covers seven parts of your operation. Each section tells you what to verify, who should own it, and how to prove it is done. You should not complete these tasks yourself. Your job is to assign each one, set a deadline, and check the evidence.</p>
+    <div class="howto">
+      <h3>How to use this guide</h3>
+      <ol>
+        <li>Complete the Readiness Snapshot below.</li>
+        <li>Assign each of the seven sections to an accountable owner.</li>
+        <li>Review progress weekly. Update the scorecard as items close.</li>
+        <li>Hold the 30-day go or no-go review before October 15.</li>
+      </ol>
+    </div>
+    <div class="legend">
+      <div class="chip green"><b>Green</b>Complete, tested, and documented.</div>
+      <div class="chip yellow"><b>Yellow</b>In progress, or waiting on another party.</div>
+      <div class="chip red"><b>Red</b>Not started, unassigned, or likely to hurt your ability to market, sell, enroll, or serve clients.</div>
+    </div>
+  </div>
+</section>
+
+<section class="snapshot" id="snapshot">
+  <div class="wrap reveal">
+    <h2>The Agency Readiness Snapshot</h2>
+    <p class="sub">One page. Seven scores. Your true starting point. Be honest: a generous score in July becomes a real problem in October. Tap a rating for each category.</p>
+    <div class="score-row"><span class="num">1</span><span class="cat"><a href="#s1">Contracting and certification</a></span><span class="pills" data-cat="1"></span></div>
+    <div class="score-row"><span class="num">2</span><span class="cat"><a href="#s2">Book of business review</a></span><span class="pills" data-cat="2"></span></div>
+    <div class="score-row"><span class="num">3</span><span class="cat"><a href="#s3">Marketing and lead generation</a></span><span class="pills" data-cat="3"></span></div>
+    <div class="score-row"><span class="num">4</span><span class="cat"><a href="#s4">Technology and CRM</a></span><span class="pills" data-cat="4"></span></div>
+    <div class="score-row"><span class="num">5</span><span class="cat"><a href="#s5">Compliance</a></span><span class="pills" data-cat="5"></span></div>
+    <div class="score-row"><span class="num">6</span><span class="cat"><a href="#s6">Sales and retention</a></span><span class="pills" data-cat="6"></span></div>
+    <div class="score-row"><span class="num">7</span><span class="cat"><a href="#s7">Team and process readiness</a></span><span class="pills" data-cat="7"></span></div>
+    <div class="start-q">
+      <div class="kicker">Start here</div>
+      <p>If AEP started next Monday, where would your agency break first? Write your answer down. Then read that section first.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SECTION 1 ================= -->
+<section class="section" id="s1">
+  <div class="wrap reveal">
+    <div class="sec-head">
+      <div class="sec-num">1</div>
+      <div>
+        <div class="sec-tag">Contracting and Certification</div>
+        <h2>Every producer, ready to sell, before the first lead is routed</h2>
+      </div>
+    </div>
+    <div class="goal"><b>The goal:</b> Prove that every producer can legally and operationally sell the products you plan to assign them, in every market you plan to assign, before leads and appointments go out.</div>
+    <p>Certification season starts in early summer. The agencies that finish early get a bonus most owners miss: time to test carrier systems and fix problems while it is still quiet.</p>
+    <ul class="checklist" data-sec="1">
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Verify active resident and nonresident licenses for every state where each producer will sell.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Confirm E&amp;O coverage is current and meets each carrier's requirements.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Complete annual Medicare training and testing. CMS requires yearly training on Medicare rules and on the specific plans each agent sells. Use AHIP or another pathway your carriers accept.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Complete fraud, waste, and abuse training and every required carrier product certification.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Confirm ready-to-sell status for every producer, by carrier, product, state, and service area.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Save all completion certificates and proof of training in one central location.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Review carrier appointments, hierarchy assignments, writing numbers, and commission setup.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Test access to carrier portals, enrollment platforms, and quoting tools, including multi-factor authentication.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">List every pending appointment, rejected submission, and expiring credential. Assign an owner to each.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Write a backup plan for any producer who is not ready by your internal deadline.</span></label></li>
+    </ul>
+    <span class="counter">0 of 10 complete</span>
+    <div class="worksheet"><a href="producer-readiness-matrix/"><b>Worksheet: Producer Readiness Matrix</b>Track each producer in one grid: name, NPN, state, carrier, product, certification complete, ready-to-sell verified, portal access tested, issue owner, and target fix date.</a></div>
+    <div class="checkpoint"><div class="kicker">Owner checkpoint</div><p>Can you prove that every lead will route only to a producer who is ready to sell that product in that market?</p></div>
+  </div>
+</section>
+
+<!-- ================= SECTION 2 ================= -->
+<section class="section" id="s2">
+  <div class="wrap reveal">
+    <div class="sec-head">
+      <div class="sec-num">2</div>
+      <div>
+        <div class="sec-tag">Book of Business Review</div>
+        <h2>Your book is your best AEP asset. Treat it like one.</h2>
+      </div>
+    </div>
+    <div class="goal"><b>The goal:</b> Turn your book of business into a prioritized service and retention plan, not a last-minute call list.</div>
+    <p>Plans change every year. Costs, provider networks, pharmacy networks, and benefits can all shift. CMS urges beneficiaries to review their Annual Notice of Change each fall. The agencies that reach those clients first, with a real needs-based review, keep them.</p>
+    <ul class="checklist" data-sec="2">
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Clean the data first. Merge duplicates, fix missing contact and plan details, and resolve unclear record ownership.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Segment the book by agent, carrier, plan, county, product type, renewal status, and service needs.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Review Annual Notice of Change and Evidence of Coverage materials for changes that affect your clients.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Flag clients whose plan, provider network, pharmacy, drug list, or costs changed enough to deserve a review.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Prioritize open service cases, recent complaints, and clients with past access or billing problems.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Build outreach waves based on urgency, client needs, producer capacity, and preferred contact channel.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Label every record: current client, prospect, referral, purchased lead, or inactive.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Document consent, permission-to-contact status, do-not-call status, and contact preferences.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Set a process for reassigning orphaned accounts and inactive-agent accounts.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Record your retention and persistency baselines now, so you can measure AEP's real effect.</span></label></li>
+    </ul>
+    <span class="counter">0 of 10 complete</span>
+    <div class="worksheet"><a href="book-of-business-segmentation-plan/"><b>Worksheet: Book of Business Segmentation Plan</b>For each segment: estimated volume, reason for review, outreach window, assigned team, script or template, and completion metric.</a></div>
+    <div class="checkpoint"><div class="kicker">Owner checkpoint</div><p>Does every client segment have a clear reason for outreach, one assigned owner, and enough capacity to complete a meaningful review?</p></div>
+  </div>
+</section>
+
+<!-- ================= SECTION 3 ================= -->
+<section class="section" id="s3">
+  <div class="wrap reveal">
+    <div class="sec-head">
+      <div class="sec-num">3</div>
+      <div>
+        <div class="sec-tag">Marketing and Lead Generation</div>
+        <h2>Buy demand your team can actually answer</h2>
+      </div>
+    </div>
+    <div class="goal"><b>The goal:</b> Build a compliant demand plan that matches your appointment and follow-up capacity.</div>
+    <p>More leads are not always more sales. Leads your team cannot call back quickly are wasted spend. Executive discipline here means working backward from capacity, not forward from budget.</p>
+    <ul class="checklist" data-sec="3">
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Set production goals by market, product, producer, and lead source.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Work backward from realistic contact, appointment, application, and enrollment rates.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Calculate the top weekly lead volume your team can contact and service well. Cap spend there.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Build a campaign calendar: client outreach, referrals, community activity, direct mail, email, digital, and events.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Keep current-year communications separate from next-plan-year marketing. Label each clearly.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Schedule plan-year marketing no earlier than October 1. Federal rules allow marketing of the coming plan year starting that date, if materials clearly name the plan year. Finish carrier and CMS approvals before distribution, and do not distribute or post materials early.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Confirm carrier, CMS, and internal review requirements for every asset before it goes out.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Verify co-op or marketing fund availability, approval steps, reimbursement rules, and proof-of-performance requirements.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Vet every lead vendor: source transparency, consent language, geography, exclusivity, lead age, return policy, and track record.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Confirm vendor agreements meet current TPMO rules for data sharing and lead generation, including one-to-one consent where required.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Define lead routing, speed-to-lead targets, contact cadence, reassignment rules, and disposition standards.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Test every landing page, form, tracking number, calendar link, and CRM handoff as if you were the prospect.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Stand up a weekly channel scorecard: spend, leads, contact rate, appointment rate, application rate, cost per result, and retention.</span></label></li>
+    </ul>
+    <span class="counter">0 of 13 complete</span>
+    <div class="worksheet"><a href="aep-demand-capacity-plan/"><b>Worksheet: AEP Demand and Capacity Plan</b>For each channel: budget, lead target, expected appointments, responsible team, launch date, approval status, tracking method, and a stop-or-scale rule.</a></div>
+    <div class="checkpoint"><div class="kicker">Owner checkpoint</div><p>If lead volume doubles for three days, does your agency respond faster, or does the extra spend just build a bigger backlog?</p></div>
+  </div>
+</section>
+
+<!-- ================= SECTION 4 ================= -->
+<section class="section" id="s4">
+  <div class="wrap reveal">
+    <div class="sec-head">
+      <div class="sec-num">4</div>
+      <div>
+        <div class="sec-tag">Technology and CRM</div>
+        <h2>Systems that work without heroics</h2>
+      </div>
+    </div>
+    <div class="goal"><b>The goal:</b> Verify that your systems can capture, route, document, enroll, and report without relying on memory or manual rescue.</div>
+    <p>During AEP, a broken form or a silent integration does not just cost a lead. It can cost the consent record and the audit trail behind it. Test everything now, end to end, while a failure is still cheap.</p>
+    <ul class="checklist" data-sec="4">
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Standardize required CRM fields: source, consent, product interest, agent assignment, appointment status, outcome, and follow-up date.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Clean out duplicate records, inactive users, stale automations, broken integrations, and inconsistent dispositions.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Confirm role-based access. Remove access for former employees and contractors.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Test enrollment platforms, carrier portals, quoting tools, calendars, phones, text tools, and email tools, including multi-factor authentication.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Run one end-to-end test: lead capture, CRM record, assignment, outreach, appointment, application, and status report.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Verify that forms and integrations preserve source and consent records.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Confirm required call recording works for applicable marketing, sales, and enrollment calls, including calls held through web-based technology.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Build alerts for uncontacted leads, missed appointments, incomplete applications, unresolved cases, and records with no next action.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Write an outage plan: manual intake, secure documentation, escalation contacts, and back-entry steps.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Confirm backups, recovery, device security, encryption, and secure remote-work procedures.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Build a leadership dashboard: speed-to-lead, contact rate, appointment rate, show rate, application rate, enrollment status, and service backlog.</span></label></li>
+    </ul>
+    <span class="counter">0 of 11 complete</span>
+    <div class="worksheet"><a href="aep-systems-test-script/"><b>Worksheet: AEP Systems Test Script</b>For each scenario: expected result, actual result, pass or fail, issue owner, fix date, and retest date.</a></div>
+    <div class="checkpoint"><div class="kicker">Owner checkpoint</div><p>Can you trace one lead from source through enrollment and service without rebuilding the story from spreadsheets and inboxes?</p></div>
+  </div>
+</section>
+
+<!-- ================= SECTION 5 ================= -->
+<section class="section" id="s5">
+  <div class="wrap reveal">
+    <div class="sec-head">
+      <div class="sec-num">5</div>
+      <div>
+        <div class="sec-tag">Compliance Review and Reminders</div>
+        <h2>Compliance is an operating system, not a memo</h2>
+      </div>
+    </div>
+    <div class="goal"><b>The goal:</b> Turn compliance into a documented process that protects beneficiaries and gives your agents clear rules for outreach, appointments, events, and enrollment.</div>
+    <p>Strong agencies do not treat compliance as a brake on growth. They treat it as proof of quality. Every item below should live in a file you could hand to a carrier or regulator on request.</p>
+    <ul class="checklist" data-sec="5">
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Verify annual Medicare and carrier training completion. Keep the evidence.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Reconfirm active licenses, E&amp;O coverage, appointments, and ready-to-sell status.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Review planned marketing materials for accuracy, required disclosures, approved carrier naming, and applicable TPMO language.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Confirm next-plan-year marketing starts no earlier than October 1, and no enrollment applications are accepted before October 15.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Use a documented Scope of Appointment before every personal marketing appointment, whether in person, by phone, or by video. For in-person appointments, keep the Scope of Appointment in writing. Note: the CMS CY2027 Agent and Broker Training and Testing Guidelines confirm the former 48-hour waiting period has been removed, but some states and carriers add their own advance-appointment rules. Confirm yours.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Confirm agents discuss only the health-related product lines the beneficiary agreed to in the Scope of Appointment.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Review your rules for consent, permission to contact, do-not-call requests, referrals, texting, email, and purchased leads.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Obtain the beneficiary's one-to-one prior express written consent before any personal data collected by a TPMO is shared with another TPMO for marketing or enrollment.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Record applicable marketing, sales, and enrollment calls in their entirety, including the audio portion of calls held through web-based technology. Retain the recordings per current requirements.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Train staff on the difference between educational events and marketing or sales events, and what is allowed at each.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Review the rules on unsolicited contact: cold calls, texts, voicemails, social media direct messages, door-to-door visits, and approaches in common areas.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Confirm your escalation steps for complaints, incidents, privacy issues, and suspected violations.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Review secure handling of beneficiary PII and PHI, including minimum-necessary access and secure transmission.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Set retention standards for marketing materials, approvals, training records, consent records, call recordings, applications, and complaints.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Name one compliance contact for live AEP questions, and document where current carrier and CMS guidance is stored.</span></label></li>
+    </ul>
+    <span class="counter">0 of 15 complete</span>
+    <div class="worksheet"><a href="compliance-file-audit/"><b>Worksheet: Compliance File Audit</b>For each requirement: policy location, responsible owner, sample evidence reviewed, gap found, corrective action, and completion date.</a></div>
+    <div class="checkpoint"><div class="kicker">Owner checkpoint</div><p>Could your agency produce the documentation behind a lead, an appointment, a recommendation, and an enrollment if a carrier or regulator asked for it?</p></div>
+  </div>
+</section>
+
+<!-- ================= SECTION 6 ================= -->
+<section class="section" id="s6">
+  <div class="wrap reveal">
+    <div class="sec-head">
+      <div class="sec-num">6</div>
+      <div>
+        <div class="sec-tag">Sales and Retention Strategy</div>
+        <h2>Sell for the client's fit, and keep the client you enrolled</h2>
+      </div>
+    </div>
+    <div class="goal"><b>The goal:</b> Run a needs-based sales process that supports responsible growth and long-term retention.</div>
+    <p>Volume without fit creates rapid disenrollment, complaints, and chargebacks. The strongest agencies coach on fit, accuracy, and client experience, not just application counts. Retention is where AEP work turns into durable revenue.</p>
+    <ul class="checklist" data-sec="6">
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Set agency and producer goals for appointments, applications, enrollments, retention, and service response.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Define one consistent pre-appointment preparation process.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Use a documented needs analysis: providers, pharmacies, prescriptions, costs, coverage preferences, and other health care needs.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Review the client's current coverage before discussing whether a change makes sense.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Train agents to explain plan tradeoffs, limits, networks, and total cost accurately.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Review the CMS Pre-Enrollment Checklist with the beneficiary before completing an MA or Part D enrollment request.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Set clear processes for no-shows, incomplete applications, pending verification, denied submissions, and urgent service issues.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Build a post-enrollment process: confirmation, welcome outreach, document delivery, and issue resolution.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Define when and how agents may ask for referrals without creating an improper unsolicited-contact workflow.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Track quality next to volume: complaints, rapid disenrollment, application errors, service backlog, and persistency.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Run daily and weekly coaching from real pipeline data, not gut feel.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Build a post-AEP retention calendar now, so service does not stop on December 7.</span></label></li>
+    </ul>
+    <span class="counter">0 of 12 complete</span>
+    <div class="worksheet"><a href="sales-quality-scorecard/"><b>Worksheet: Sales Quality Scorecard</b>For each producer: appointments, show rate, applications, enrollment status, error rate, complaints, pending cases, follow-up completion, and early retention indicators.</a></div>
+    <div class="checkpoint"><div class="kicker">Owner checkpoint</div><p>Are your agents coached only on production volume, or also on fit, documentation, accuracy, and client experience?</p></div>
+  </div>
+</section>
+
+<!-- ================= SECTION 7 ================= -->
+<section class="section" id="s7">
+  <div class="wrap reveal">
+    <div class="sec-head">
+      <div class="sec-num">7</div>
+      <div>
+        <div class="sec-tag">Team and Process Readiness</div>
+        <h2>When volume spikes, clarity wins</h2>
+      </div>
+    </div>
+    <div class="goal"><b>The goal:</b> Make responsibilities, handoffs, escalation paths, and backup coverage clear before volume increases.</div>
+    <p>Every AEP failure story ends the same way: nobody knew who owned the decision. Fix that in September, on paper, and October gets much calmer.</p>
+    <ul class="checklist" data-sec="7">
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Assign one accountable owner each for sales, operations, compliance, marketing, lead routing, carrier issues, technology, and client service.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Map the workflow for inbound leads, outbound outreach, appointments, enrollment, pending cases, complaints, and post-enrollment service.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Define handoff standards, response times, required notes, and escalation thresholds.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Model weekly capacity by producer and support role, including planned time off and peak-hour coverage.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Set backup coverage for absent producers, system outages, carrier delays, and lead spikes.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Run role-play and process drills for common AEP scenarios before the season starts.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Publish a current contact directory: carriers, technology vendors, lead vendors, NCC support, compliance, and leadership.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Confirm equipment, headsets, internet reliability, secure workspaces, print supplies, and remote-work readiness.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Set a daily huddle agenda and a weekly leadership review focused on risks, capacity, stuck cases, and client service.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Create a quality-assurance sampling process for calls, CRM notes, applications, and follow-up.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Protect sustainable schedules, break coverage, and workload checks. Tired teams make preventable errors.</span></label></li>
+      <li><label><input type="checkbox"><span class="box"></span><span class="txt">Put the post-AEP debrief on the calendar now, so lessons get captured while they are fresh.</span></label></li>
+    </ul>
+    <span class="counter">0 of 12 complete</span>
+    <div class="worksheet"><a href="aep-responsibility-map/"><b>Worksheet: AEP Responsibility Map</b>For each process: accountable owner, supporting roles, backup owner, service-level expectation, escalation trigger, and documentation location.</a></div>
+    <div class="checkpoint"><div class="kicker">Owner checkpoint</div><p>When something breaks during AEP, will your team know who owns the decision and what happens next?</p></div>
+  </div>
+</section>
+
+<!-- ================= GO / NO-GO ================= -->
+<section class="gonogo" id="gonogo">
+  <div class="wrap reveal">
+    <h2>The 30-Day Go or No-Go Review</h2>
+    <p class="sub">One meeting, held about 30 days before October 15. Put it on the calendar today. Bring your leadership team and the completed scorecard.</p>
+    <div class="gng-grid">
+      <div class="gng-card">
+        <h3>Agenda</h3>
+        <ol>
+          <li>Review every red and yellow item.</li>
+          <li>Confirm every gap has one accountable owner and a deadline.</li>
+          <li>Retest any failed systems and workflows.</li>
+          <li>Validate producer readiness against your planned lead routing.</li>
+          <li>Compare planned campaign volume with actual appointment capacity.</li>
+          <li>Review compliance updates and carrier-specific changes.</li>
+          <li>Confirm backup plans for technology, staffing, and vendor issues.</li>
+          <li>Decide what you will delay, reduce, or pause if gaps remain.</li>
+        </ol>
+      </div>
+      <div class="gng-card">
+        <h3>Final sign-off questions</h3>
+        <ul>
+          <li>Are all producers ready to sell for their assigned markets and products?</li>
+          <li>Is the book of business segmented and assigned?</li>
+          <li>Is marketing approved, scheduled, measurable, and matched to capacity?</li>
+          <li>Have lead sources and consent workflows been reviewed?</li>
+          <li>Have critical systems passed an end-to-end test?</li>
+          <li>Can you document compliance for outreach, appointments, and enrollment?</li>
+          <li>Are sales, service, and retention processes staffed and measurable?</li>
+          <li>Does every critical workflow have an owner and a backup?</li>
+        </ul>
+      </div>
+    </div>
+    <p class="closer">If you can answer yes to all eight, your agency is ready. If not, you know exactly where to focus.</p>
+  </div>
+</section>
+
+<!-- ================= NCC ================= -->
+<section class="ncc" id="ncc">
+  <div class="wrap reveal">
+    <h2>You lead the agency. We carry the back office.</h2>
+    <p class="sub">Where NCC fits in your AEP readiness plan.</p>
+    <p>This checklist works on its own. Use it with your team either way. But most owners find the same thing when they score themselves: the biggest gaps sit in contracting, carrier access, training, and technology. That is exactly the work NCC exists to carry.</p>
+    <div class="ncc-grid">
+      <div class="ncc-card"><b>Contracting and ready-to-sell</b>Carrier appointments, certification tracking, and gap resolution.</div>
+      <div class="ncc-card"><b>Carrier access</b>Contracts with 50+ carriers across Medicare, life, and more, so your portfolio matches your market. (Carrier count as of July 2026. Availability varies by state and product.)</div>
+      <div class="ncc-card"><b>Training and education</b>Certification support and ongoing product education for your producers.</div>
+      <div class="ncc-card"><b>Technology</b>Enrollment and quoting platforms that support your producers through the season.</div>
+      <div class="ncc-card"><b>A real support team</b>People who answer, not a call center queue.</div>
+      <div class="ncc-card"><b>Aligned incentives</b>There is no agency fee for partnering with NCC. We are paid by the carriers, so we only succeed when your agency does. Commission schedules, production requirements, and chargeback provisions are set by each carrier.</div>
+    </div>
+    <p class="fineprint"><b>Next steps:</b> Score your agency with the snapshot above. Review your contracting and certification gaps with your NCC Sales Development Manager. Then bring your highest-risk gaps to your next NCC strategy conversation. We will help you build the plan to close them.</p>
+    <div class="cta-band">
+      <div>
+        <h3>Ready to close your readiness gaps?</h3>
+        <p>Bring your red and yellow scores to a conversation with your NCC Sales Development Manager.</p>
+      </div>
+      <a class="btn btn-primary" href="https://nccagent.com/contact">Schedule AEP Review</a>
+    </div>
+  </div>
+</section>
+
+<aside class="legal-note" aria-label="Important use and compliance information">
+  <div class="wrap">
+    <div class="legal">
+      <p class="use-line">For agent and agency use only. Not for distribution to Medicare beneficiaries.</p>
+      <p>This checklist is an operational planning resource for licensed insurance professionals. It is not legal, tax, or compliance advice. Medicare rules change. Agencies should confirm the current CMS, carrier, state, privacy, telemarketing, and legal requirements that apply to their business. Key dates referenced: the Annual Enrollment Period runs October 15 through December 7. Marketing of prospective plan-year offerings may begin October 1 where materials clearly identify the plan year. Sources: CMS Medicare Open Enrollment partner resources; CMS CY2027 Agent and Broker Training and Testing Guidelines; 42 CFR 422.2263, 422.2264, and 422.2274.</p>
+    </div>
+  </div>
+</aside>
+
+</main>
+
+<script>
+  // Scroll reveal. Hiding is gated on body.anim so no-JS, reduced-motion,
+  // and anchor-link entry always show content.
+  var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var anchored = location.hash.length > 1; // arriving mid-document: no entrance animation
+  if (!reduced && !anchored && 'IntersectionObserver' in window) {
+    document.body.classList.add('anim');
+    var reveals = Array.prototype.slice.call(document.querySelectorAll('.reveal'));
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.08 });
+    reveals.forEach(function (el) { io.observe(el); });
+  }
+
+  // Snapshot rating pills: one selection per category
+  var LABELS = [['green', 'Green'], ['yellow', 'Yellow'], ['red', 'Red']];
+  document.querySelectorAll('.pills').forEach(function (group) {
+    LABELS.forEach(function (l) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'pill';
+      b.dataset.val = l[0];
+      b.textContent = l[1];
+      b.setAttribute('aria-pressed', 'false');
+      b.addEventListener('click', function () {
+        var already = b.classList.contains('on-' + l[0]);
+        group.querySelectorAll('.pill').forEach(function (p) {
+          p.classList.remove('on-green', 'on-yellow', 'on-red');
+          p.setAttribute('aria-pressed', 'false');
+        });
+        if (!already) { b.classList.add('on-' + l[0]); b.setAttribute('aria-pressed', 'true'); }
+      });
+      group.appendChild(b);
+    });
+  });
+
+  // Per-section checklist counters
+  document.querySelectorAll('.checklist').forEach(function (list) {
+    var boxes = list.querySelectorAll('input[type=checkbox]');
+    var counter = list.parentElement.querySelector('.counter');
+    function update() {
+      var done = list.querySelectorAll('input:checked').length;
+      counter.textContent = done + ' of ' + boxes.length + ' complete';
+      counter.classList.toggle('done', done === boxes.length);
+    }
+    boxes.forEach(function (b) { b.addEventListener('change', update); });
+    update();
+  });
+</script>
+
+</body>
+</html>
